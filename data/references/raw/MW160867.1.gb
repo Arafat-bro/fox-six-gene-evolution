@@ -1,0 +1,59 @@
+LOCUS       MW160867                 432 bp    DNA     linear   PLN 08-FEB-2021
+DEFINITION  Fusarium oxysporum f. sp. physali isolate 25 secreted in the xylem
+            12 (SIX12) gene, complete cds.
+ACCESSION   MW160867
+VERSION     MW160867.1
+KEYWORDS    .
+SOURCE      Fusarium oxysporum f. sp. physali
+  ORGANISM  Fusarium oxysporum f. sp. physali
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Hypocreales; Nectriaceae;
+            Fusarium; Fusarium oxysporum species complex.
+REFERENCE   1  (bases 1 to 432)
+  AUTHORS   Simbaqueba,J., Rodriguez,E.A., Burbano-David,D., Gonzalez,C. and
+            Caro-Quintero,A.
+  TITLE     Putative Novel Effector Genes Revealed by the Genomic Analysis of
+            the Phytopathogenic Fungus Fusarium oxysporum f. sp. physali (Foph)
+            That Infects Cape Gooseberry Plants
+  JOURNAL   Front Microbiol 11, 593915 (2021)
+   PUBMED   33537009
+REFERENCE   2  (bases 1 to 432)
+  AUTHORS   Simbaqueba,J., Rodriguez,E.A., Burbano-David,D.M., Gonzalez,C. and
+            Caro-Quintero,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-OCT-2020) Ci Tibaitata, Agrosavia, Km 14 Via
+            Mosquera, Mosquera, Cundinamarca 250047, Colombia
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MEGAHIT v. 1.O
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..432
+                     /organism="Fusarium oxysporum f. sp. physali"
+                     /mol_type="genomic DNA"
+                     /isolate="25"
+                     /host="Cape gooseberry"
+                     /db_xref="taxon:2212625"
+     gene            <1..>432
+                     /gene="SIX12"
+     mRNA            join(<1..22,71..>432)
+                     /gene="SIX12"
+                     /product="secreted in the xylem 12"
+     CDS             join(1..22,71..432)
+                     /gene="SIX12"
+                     /codon_start=1
+                     /product="secreted in the xylem 12"
+                     /protein_id="QQY97450.1"
+                     /translation="MGFYSVIKVLSIYGMLLQVQPTLAQASSCLSVGPKGISNQNACV
+                     CGGQCVMKDLVVARRKVCCEYTVQIQGGWPVLAQSRCVYGSTGANGGSCSGDNVSLAW
+                     WLNYEPEVKSTDPTCIFAKPKLCHS"
+ORIGIN      
+        1 atgggctttt actccgttat aagtatgacc tcgttttatt tatcatgttc acaactaacg
+       61 aagtgaaaag aagtcctctc tatttatggc atgctgctcc aagtacaacc taccttggcc
+      121 caagcgtcca gttgtctcag cgttggaccc aaaggtatca gcaaccagaa tgcttgtgtg
+      181 tgtggaggtc aatgcgtcat gaaagacttg gtcgttgctc gcagaaaggt ttgctgtgaa
+      241 tacacagttc agatacaggg tggttggcct gttcttgccc aaagccgttg tgtttacggc
+      301 tctactggtg ccaacggggg ttcatgctct ggtgataatg tctcccttgc ttggtggctc
+      361 aactatgagc cggaggtgaa gagcacagat cccacatgca tttttgcgaa gcccaagcta
+      421 tgccactcct ga
+//

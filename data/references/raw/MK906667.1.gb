@@ -1,0 +1,49 @@
+LOCUS       MK906667                 614 bp    DNA     linear   PLN 16-AUG-2020
+DEFINITION  Fusarium oxysporum isolate Fol3 secreted in xylem 10 (SIX10) gene,
+            complete cds.
+ACCESSION   MK906667
+VERSION     MK906667.1
+KEYWORDS    .
+SOURCE      Fusarium oxysporum
+  ORGANISM  Fusarium oxysporum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Hypocreales; Nectriaceae;
+            Fusarium; Fusarium oxysporum species complex.
+REFERENCE   1  (bases 1 to 614)
+  AUTHORS   Batson,A.M. and du Toit,L.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAY-2019) Plant Pathology, Washington State
+            University, 16650 State Route 536, Mount Vernon, WA 98273, USA
+FEATURES             Location/Qualifiers
+     source          1..614
+                     /organism="Fusarium oxysporum"
+                     /mol_type="genomic DNA"
+                     /isolate="Fol3"
+                     /db_xref="taxon:5507"
+                     /note="race 3"
+     gene            <21..>540
+                     /gene="SIX10"
+     mRNA            join(<21..100,171..>540)
+                     /gene="SIX10"
+                     /product="secreted in xylem 10"
+     CDS             join(21..100,171..540)
+                     /gene="SIX10"
+                     /codon_start=1
+                     /product="secreted in xylem 10"
+                     /protein_id="QMX85439.1"
+                     /translation="MKLLWLIPVVASTAIPDSGVSTGTKDLSKRDDAYIFDVTFRVGP
+                     AGANVAPFSGSVYVQDGLTPLVRSGSGSSISDRGYNAFRGIVYFTFTHGYNQYSASTR
+                     FGVYVDTGLIVDSNGRPIYGTAPRKACIDYSPHGPTDVCSVTITRSK"
+ORIGIN      
+        1 gacactagaa aacctcaact atgaagctct tgtggttgat tcctgttgtc gcgtctaccg
+       61 caattccaga ctctggtgta tccactggca ccaaagacct gtaagatact tctttttcgg
+      121 acgacccgaa cttcccttag aaccatctag ttttgcttac catgcaccag ctctaaacga
+      181 gacgatgcat acatatttga tgtcacgttt cgagttggtc cagccggggc taacgtcgcg
+      241 ccattctctg gatctgtgta cgtccaggat ggtcttaccc cacttgttcg ttcaggttca
+      301 ggatcttcga tctcggatcg cggttacaac gctttcagag gaatagtgta cttcacattt
+      361 actcacggct acaaccagta ctccgcatcg actcgatttg gtgtctacgt tgatactgga
+      421 ttaattgtcg actcgaacgg cagaccaatc tacgggaccg cgccccgcaa agcctgcatc
+      481 gactattcac ctcatggtcc caccgacgtt tgttctgtaa caattaccag gtctaagtag
+      541 gaatagttga aaagacctta ctaccatcca cctctttact aaattaattg gaaaattagc
+      601 tagtaagagg aagg
+//
