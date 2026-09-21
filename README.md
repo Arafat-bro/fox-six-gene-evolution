@@ -33,3 +33,15 @@ conda activate six_project
 ## Manual judgment calls
 
 See `docs/decisions/` for every point where a human decision was made (genome selection criteria, BLAST threshold choices, borderline hit calls, synteny interpretation) rather than a fully automated pipeline step.
+
+## Genome selection
+
+Twenty-seven *Fusarium oxysporum* genome assemblies were selected from
+NCBI for this analysis, spanning 15 hosts/formae speciales and including
+the two required reference strains (Fol4287, Fo47). Selection criteria,
+quality filtering, and manual judgment calls (redundant isolate removal,
+forma specialis verification) are documented in
+`docs/decisions/genome_selection_criteria.md`. The final genome metadata
+table is at `results/genome_metadata.tsv`.
+
+Scripts: `scripts/02_genome_selection/`
