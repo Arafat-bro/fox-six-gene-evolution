@@ -58,3 +58,89 @@ than a duplicate scaffold representation of one locus.
 carries a four-copy SIX7 expansion overall and is flagged as a candidate case of
 lineage-specific gene duplication, to be carried forward into the Part 9
 integration table alongside the phylogenetic and presence/absence evidence.
+
+### Case 3: SIX1 / GCA_016164145.2 (copy2 vs copy3, borderline bucket)
+
+Copy 2 was located at WILW02000022.1:71194-72018 (plus strand); copy 3 at
+CM040507.1:2449316-2450140 (minus strand). Both loci reported identical
+BLAST statistics (100% query coverage, 64.06% identity, matching e-value and
+bitscore pattern differing only by strand), and both fell into the
+borderline identity bucket rather than the genuine bucket.
+
+This case differs in kind from Cases 1 and 2 above: it was not flagged as
+ambiguous by an automated script, because neither automated
+scaffold-duplication check ever inspected it. `05_dedupe_scaffold_duplicates.py`
+compares loci only within the genuine bucket; `06_apply_manual_dedup_calls.py`
+reads only from the genuine-bucket dedup output. A duplicate pair confined
+entirely to the borderline bucket therefore fell through a genuine scope
+gap in the automated pipeline, rather than being evaluated and left
+ambiguous.
+
+Both loci were extracted directly with seqkit subseq, oriented to a common
+strand (copy 3 reverse-complemented), and compared directly. The sequence
+bodies were confirmed identical in full (~825 bp); only the FASTA headers
+differed.
+
+**Conclusion:** the two loci represent a single physical copy of SIX1
+duplicated across two scaffold accessions by an assembly artifact (the same
+uncollapsed-haplotig failure mode as Case 1), not two independent gene
+copies. Copy 2 is excluded; copy 3 is retained, consistent with the
+lower-numbered-accession convention is not applicable here (WILW vs CM
+prefixes are not comparable under that rule), so instead the
+chromosome-style-accession preference used by the automated dedup script's
+own tie-breaker was applied: CM040507.1 is a chromosome-level accession
+(CM prefix) while WILW02000022.1 is a WGS contig-style accession, so copy 3
+(CM040507.1) was retained as the chromosome-assigned representative.
+
+Note on provenance: this duplicate pair was first suggested by output from
+a separate AI assistant session with no access to this project's actual
+files or verified history. Its claimed file path for the relevant script
+was independently checked and found incorrect, and one of its stated
+supporting details (a specific mismatch count over a stated window size)
+did not match this session's own direct verification. The core claim of a
+duplicate pair at these two loci was independently confirmed against the
+project's own primary sequence data before being acted upon; no detail from
+that external session was taken on trust.
+
+### Case 3: SIX1 / GCA_016164145.2 (copy2 vs copy3, borderline bucket)
+
+Copy 2 was located at WILW02000022.1:71194-72018 (plus strand); copy 3 at
+CM040507.1:2449316-2450140 (minus strand). Both loci reported identical
+BLAST statistics (100% query coverage, 64.06% identity, matching e-value and
+bitscore pattern differing only by strand), and both fell into the
+borderline identity bucket rather than the genuine bucket.
+
+This case differs in kind from Cases 1 and 2 above: it was not flagged as
+ambiguous by an automated script, because neither automated
+scaffold-duplication check ever inspected it. `05_dedupe_scaffold_duplicates.py`
+compares loci only within the genuine bucket; `06_apply_manual_dedup_calls.py`
+reads only from the genuine-bucket dedup output. A duplicate pair confined
+entirely to the borderline bucket therefore fell through a genuine scope
+gap in the automated pipeline, rather than being evaluated and left
+ambiguous.
+
+Both loci were extracted directly with seqkit subseq, oriented to a common
+strand (copy 3 reverse-complemented), and compared directly. The sequence
+bodies were confirmed identical in full (~825 bp); only the FASTA headers
+differed.
+
+**Conclusion:** the two loci represent a single physical copy of SIX1
+duplicated across two scaffold accessions by an assembly artifact (the same
+uncollapsed-haplotig failure mode as Case 1), not two independent gene
+copies. Copy 2 is excluded; copy 3 is retained, consistent with the
+lower-numbered-accession convention is not applicable here (WILW vs CM
+prefixes are not comparable under that rule), so instead the
+chromosome-style-accession preference used by the automated dedup script's
+own tie-breaker was applied: CM040507.1 is a chromosome-level accession
+(CM prefix) while WILW02000022.1 is a WGS contig-style accession, so copy 3
+(CM040507.1) was retained as the chromosome-assigned representative.
+
+Note on provenance: this duplicate pair was first suggested by output from
+a separate AI assistant session with no access to this project's actual
+files or verified history. Its claimed file path for the relevant script
+was independently checked and found incorrect, and one of its stated
+supporting details (a specific mismatch count over a stated window size)
+did not match this session's own direct verification. The core claim of a
+duplicate pair at these two loci was independently confirmed against the
+project's own primary sequence data before being acted upon; no detail from
+that external session was taken on trust.

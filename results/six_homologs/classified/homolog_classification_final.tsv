@@ -1,8 +1,8 @@
 copy_id	gene	accession	sseqid	sstrand	n_hsps_merged	genomic_start	genomic_end	query_coverage_pct	weighted_pident	best_evalue	sum_bitscore	status	status_note	source_table	scaffold_length	frame_selected	protein_length	ref_protein_length	internal_stop_count	ends_in_stop	assembly_boundary_flag	classification	final_status
-SIX10_GCA_003315725.1_copy1	SIX10	GCA_003315725.1	gb|QESU01000255.1|	minus	2	5729	6245	100.0	100.0	3.1e-71	285.8	genuine_homolog		genuine	21997	1	172	149	3	False	False	pseudogenized	excluded_pseudogene
+SIX10_GCA_003315725.1_copy1	SIX10	GCA_003315725.1	gb|QESU01000255.1|	minus	2	5729	6245	100.0	100.0	3.1e-71	285.8	genuine_homolog		genuine	21997	exonerate:reverse_complement:0	149	149	0	False	False	complete	retained
 SIX10_GCA_003615085.1_copy1	SIX10	GCA_003615085.1	gb|MRCU01000021.1|	plus	1	248225	248587	81.2	90.08	1.2e-58	196.0	genuine_homolog		genuine	331997	0	121	149	0	False	False	truncated	retained
-SIX10_GCA_003977725.1_copy1	SIX10	GCA_003977725.1	gb|CM012196.1|	plus	2	367890	368406	100.0	100.0	3.22e-71	285.8	genuine_homolog		genuine	2138808	1	172	149	3	False	False	pseudogenized	excluded_pseudogene
-SIX10_GCA_013423245.1_copy1	SIX10	GCA_013423245.1	gb|CM023981.1|	plus	2	308004	308520	100.0	91.28	1.26e-62	256.8	genuine_homolog		genuine	8406827	1	172	149	3	False	False	pseudogenized	excluded_pseudogene
+SIX10_GCA_003977725.1_copy1	SIX10	GCA_003977725.1	gb|CM012196.1|	plus	2	367890	368406	100.0	100.0	3.22e-71	285.8	genuine_homolog		genuine	2138808	exonerate:forward:0	149	149	0	False	False	complete	retained
+SIX10_GCA_013423245.1_copy1	SIX10	GCA_013423245.1	gb|CM023981.1|	plus	2	308004	308520	100.0	91.28	1.26e-62	256.8	genuine_homolog		genuine	8406827	exonerate:forward:0	149	149	0	False	False	complete	retained
 SIX10_GCA_013423245.1_copy2	SIX10	GCA_013423245.1	gb|CM023981.1|	minus	1	4041794	4042159	81.9	90.98	1.33e-61	205.0	genuine_homolog		genuine	8406827	0	122	149	0	False	False	truncated	retained
 SIX12_GCA_003315725.1_copy1	SIX12	GCA_003315725.1	gb|QESU01000255.1|	minus	1	7472	7900	100.0	88.11	5.06e-78	250.0	genuine_homolog		genuine	21997	0	143	127	1	False	False	pseudogenized	excluded_pseudogene
 SIX12_GCA_003615085.1_copy1	SIX12	GCA_003615085.1	gb|MRCU01000021.1|	plus	1	244625	244984	94.5	92.5	2.17e-69	226.0	genuine_homolog		genuine	331997	0	120	127	0	False	False	complete	retained
@@ -33,8 +33,8 @@ SIX1_GCA_054130785.1_copy2	SIX1	GCA_054130785.1	gb|JASCZF010000003.1|	minus	1	81
 SIX3_GCA_003315725.1_copy1	SIX3	GCA_003315725.1	gb|QESU01000286.1|	minus	1	693	1181	100.0	100.0	5.64e-98	307.0	genuine_homolog		genuine	3877	0	163	163	0	False	False	complete	retained
 SIX3_GCA_003615085.1_copy1	SIX3	GCA_003615085.1	gb|MRCU01000016.1|	minus	1	162130	162615	99.4	86.42	1.57e-82	265.0	genuine_homolog		genuine	818454	0	162	163	0	False	False	complete	retained
 SIX3_GCA_003977725.1_copy1	SIX3	GCA_003977725.1	gb|CM012196.1|	plus	1	661998	662486	100.0	99.39	5.2e-96	304.0	genuine_homolog		genuine	2138808	0	163	163	0	False	False	complete	retained
-SIX5_GCA_003315725.1_copy1	SIX5	GCA_003315725.1	gb|QESU01000286.1|	plus	3	2411	2901	100.0	84.33	1.1e-48	230.6	genuine_homolog		genuine	3877	1	163	119	13	False	False	pseudogenized	excluded_pseudogene
-SIX5_GCA_003977725.1_copy1	SIX5	GCA_003977725.1	gb|CM012196.1|	minus	3	660278	660768	100.0	84.33	1.06e-48	230.6	genuine_homolog		genuine	2138808	1	163	119	13	False	False	pseudogenized	excluded_pseudogene
+SIX5_GCA_003315725.1_copy1	SIX5	GCA_003315725.1	gb|QESU01000286.1|	plus	3	2411	2901	100.0	84.33	1.1e-48	230.6	genuine_homolog		genuine	3877	exonerate:forward:0	119	119	0	False	False	complete	retained
+SIX5_GCA_003977725.1_copy1	SIX5	GCA_003977725.1	gb|CM012196.1|	minus	3	660278	660768	100.0	84.33	1.06e-48	230.6	genuine_homolog		genuine	2138808	exonerate:reverse_complement:0	119	119	0	False	False	complete	retained
 SIX7_GCA_003315725.1_copy1	SIX7	GCA_003315725.1	gb|QESU01000255.1|	plus	1	10211	10870	100.0	100.0	8.39e-133	412.0	genuine_homolog		genuine	21997	0	220	220	0	False	False	complete	retained
 SIX7_GCA_003615085.1_copy1	SIX7	GCA_003615085.1	gb|MRCU01000021.1|	minus	2	242587	243229	97.7	83.8	5.77e-85	332.9	genuine_homolog		genuine	331997	0	214	220	6	False	False	pseudogenized	excluded_pseudogene
 SIX7_GCA_003977725.1_copy1	SIX7	GCA_003977725.1	gb|CM012196.1|	minus	1	363265	363924	100.0	100.0	9.07e-133	412.0	genuine_homolog		genuine	2138808	0	220	220	0	False	False	complete	retained
@@ -42,6 +42,6 @@ SIX7_GCA_013423245.1_copy1	SIX7	GCA_013423245.1	gb|CM023984.1|	plus	1	23385	2404
 SIX7_GCA_013423245.1_copy2	SIX7	GCA_013423245.1	gb|CM023981.1|	minus	1	304130	304771	97.7	87.44	4.32e-111	350.0	genuine_homolog		genuine	8406827	0	214	220	0	False	False	complete	retained
 SIX7_GCA_013423245.1_copy3	SIX7	GCA_013423245.1	gb|CM023981.1|	minus	1	2309187	2309771	89.1	85.71	2.15e-105	334.0	genuine_homolog		genuine	8406827	0	195	220	0	False	False	truncated	retained
 SIX7_GCA_013423245.1_copy4	SIX7	GCA_013423245.1	gb|CM023981.1|	plus	1	4043030	4043671	97.7	87.44	4.32e-111	350.0	genuine_homolog		genuine	8406827	0	214	220	0	False	False	complete	retained
-SIX1_GCA_016164145.2_copy2	SIX1	GCA_016164145.2	gb|WILW02000022.1|	plus	1	71194	72018	100.0	64.06	1.61e-112	357.0	borderline_identity_manual_review	identity between floor and confident threshold	borderline	83298	0	275	280	0	False	False	complete	retained
+SIX1_GCA_016164145.2_copy2	SIX1	GCA_016164145.2	gb|WILW02000022.1|	plus	1	71194	72018	100.0	64.06	1.61e-112	357.0	borderline_identity_manual_review	identity between floor and confident threshold	borderline	83298	0	275	280	0	False	False	complete	excluded_manual_duplicate
 SIX1_GCA_016164145.2_copy3	SIX1	GCA_016164145.2	gb|CM040507.1|	minus	1	2449316	2450140	100.0	64.06	1.75e-112	357.0	borderline_identity_manual_review	identity between floor and confident threshold	borderline	3596494	0	275	280	0	False	False	complete	retained
 SIX1_GCA_053754955.2_copy1	SIX1	GCA_053754955.2	gb|CM132354.1|	minus	1	1345682	1346494	98.9	60.21	9.72e-103	328.0	borderline_identity_manual_review	identity between floor and confident threshold	borderline	2911131	0	271	280	1	False	False	pseudogenized	excluded_pseudogene
