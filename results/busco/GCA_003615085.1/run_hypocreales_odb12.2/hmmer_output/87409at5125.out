@@ -1,0 +1,29 @@
+#                                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+87409at5125_1101274_0:0027b6|MRCU01000005.1:351435-354491|- -            716 87409                -            554         0 1062.1  14.1   1   1         0         0 1054.2  14.1     1   544   114   683   114   715 0.95 <unknown description>
+87409at5125_5544_2:002b6b|MRCU01000005.1:351435-365594|-    -            767 87409                -            554         0 1061.8  14.0   1   2         0         0 1055.5  12.2     1   543   165   733   165   740 0.95 <unknown description>
+87409at5125_5544_2:002b6b|MRCU01000005.1:351435-365594|-    -            767 87409                -            554         0 1061.8  14.0   2   2      0.19      0.19   -0.5   0.0   529   554   741   766   729   766 0.59 <unknown description>
+87409at5125_61374_0:001ee4|MRCU01000005.1:350495-353655|-   -            700 87409                -            554         0 1045.0  14.8   1   2   7.5e-23   7.5e-23   70.1   0.3     1    39     1    39     1    53 0.95 <unknown description>
+87409at5125_61374_0:001ee4|MRCU01000005.1:350495-353655|-   -            700 87409                -            554         0 1045.0  14.8   2   2  6.8e-296  6.8e-296  971.4   9.2    36   543   149   681   137   689 0.94 <unknown description>
+87409at5125_1080344_0:001154|MRCU01000005.1:351435-353621|- -            729 87409                -            554    1e-297  977.5  11.1   1   1  2.7e-295  2.7e-295  969.4  11.1    36   544   163   696   150   728 0.94 <unknown description>
+87409at5125_327505_0:000b63|MRCU01000005.1:351525-353103|-  -            527 87409                -            554  8.2e-294  964.6   7.2   1   1  1.4e-291  1.4e-291  957.2   7.2    46   543     1   523     1   526 0.95 <unknown description>
+87409at5125_396571_0:00388f|CM010807.1:792955-794928|+      -            566 87409                -            554  3.8e-285  936.0   6.7   1   1  4.2e-285  4.2e-285  935.8   6.7     1   554     1   565     1   565 0.95 <unknown description>
+87409at5125_1101274_0:001cd2|CM010807.1:790976-794928|+     -            983 87409                -            554  8.2e-279  915.1   9.5   1   2   8.3e-19   8.3e-19   56.8   0.2     1    43   391   433   391   446 0.92 <unknown description>
+87409at5125_1101274_0:001cd2|CM010807.1:790976-794928|+     -            983 87409                -            554  8.2e-279  915.1   9.5   2   2  1.9e-262  1.9e-262  861.1   4.6    39   554   457   982   452   982 0.94 <unknown description>
+87409at5125_1079257_0:002a87|MRCU01000005.1:351435-352779|- -            449 87409                -            554  1.5e-256  841.5   3.3   1   2  2.1e-256  2.1e-256  841.1   1.9   132   543     1   415     1   421 0.98 <unknown description>
+87409at5125_1079257_0:002a87|MRCU01000005.1:351435-352779|- -            449 87409                -            554  1.5e-256  841.5   3.3   2   2      0.14      0.14   -0.1   0.0   530   554   424   448   414   448 0.61 <unknown description>
+87409at5125_2502994_0:0001da|CM010807.1:793324-794805|+     -            479 87409                -            554  4.4e-252  826.8   8.1   1   1  4.9e-252  4.9e-252  826.6   8.1    46   515     1   477     1   479 0.97 <unknown description>
+87409at5125_1330021_0:001b0e|MRCU01000005.1:352011-353658|- -            412 87409                -            554  3.4e-227  744.6  12.7   1   1  7.1e-225  7.1e-225  737.0  12.7     1   388     2   412     2   412 0.95 <unknown description>
+87409at5125_57161_0:00406a|MRCU01000005.1:351435-352404|-   -            324 87409                -            554    5e-175  572.4   6.2   1   1  1.9e-174  1.9e-174  570.5   6.2   257   544     1   291     1   323 0.97 <unknown description>
+87409at5125_2773459_0:001178|CM010807.1:793324-794256|+     -            296 87409                -            554  6.4e-156  509.4   2.8   1   1  7.1e-156  7.1e-156  509.2   2.8    46   337     1   296     1   296 0.98 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/87409at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/87409at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/87409at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/87409at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/87409at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:40 2026
+# [ok]

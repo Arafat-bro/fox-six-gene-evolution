@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+223673at5125_1080343_0:000da6|CM010806.1:1556408-1557349|- -            289 223673               -            232  7.9e-107  345.0  11.2   1   1  4.4e-105  4.4e-105  339.3  11.2     3   231    28   285    26   286 0.84 <unknown description>
+223673at5125_1859967_0:0018d6|CM010806.1:1556417-1558832|- -            562 223673               -            232  7.7e-106  341.8  11.0   1   1  2.7e-104  2.7e-104  336.7  11.0     3   231   304   561   302   562 0.84 <unknown description>
+223673at5125_1081105_0:001ebe|CM010806.1:1556408-1557155|- -            250 223673               -            232  6.7e-104  335.4   9.9   1   1  3.8e-102  3.8e-102  329.7   9.9    15   231     2   246     1   247 0.84 <unknown description>
+223673at5125_595255_0:00249e|CM010806.1:1556417-1556615|-  -             67 223673               -            232   7.7e-46  145.4   0.4   1   1   8.2e-46   8.2e-46  145.3   0.4   167   231     2    66     1    67 0.97 <unknown description>
+223673at5125_660025_0:001c8a|CM010806.1:1556608-1557349|-  -            222 223673               -            232   9.1e-44  138.6   5.2   1   1   1.4e-43   1.4e-43  138.0   5.2     3   115    28   141    26   157 0.89 <unknown description>
+223673at5125_595255_0:0011d2|CM010806.1:1556906-1557373|-  -            131 223673               -            232   5.9e-42  132.7   3.1   1   1     6e-42     6e-42  132.7   2.7     3    96    36   130    33   131 0.95 <unknown description>
+223673at5125_1736662_0:0006ce|CM010806.1:1557068-1557328|- -             62 223673               -            232   3.3e-13   38.6   1.0   1   1   3.5e-13   3.5e-13   38.6   1.0     3    43    21    62     7    62 0.92 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/223673at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/223673at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/223673at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/223673at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/223673at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:18 2026
+# [ok]

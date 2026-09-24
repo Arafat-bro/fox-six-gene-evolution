@@ -1,0 +1,25 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+198862at5125_396571_0:00247e|CM010803.1:2755895-2758661|+  -            880 198862               -            658         0 1095.2  50.7   1   2   2.6e-48   2.6e-48  153.4   0.1     2   107     9   119     8   137 0.87 <unknown description>
+198862at5125_396571_0:00247e|CM010803.1:2755895-2758661|+  -            880 198862               -            658         0 1095.2  50.7   2   2  7.6e-284  7.6e-284  931.6  46.2   109   657   248   875   234   876 0.83 <unknown description>
+198862at5125_73501_0:00062c|CM010803.1:2750664-2758661|+   -            959 198862               -            658         0 1094.5  50.7   1   2     3e-48     3e-48  153.2   0.1     2   107    88   198    87   216 0.87 <unknown description>
+198862at5125_73501_0:00062c|CM010803.1:2750664-2758661|+   -            959 198862               -            658         0 1094.5  50.7   2   2  9.4e-284  9.4e-284  931.3  46.2   109   657   327   954   313   955 0.83 <unknown description>
+198862at5125_2604345_0:001ecf|CM010803.1:2755100-2758661|+ -           1107 198862               -            658         0 1093.8  50.1   1   2   3.6e-48   3.6e-48  152.9   0.1     2   107   236   346   235   364 0.87 <unknown description>
+198862at5125_2604345_0:001ecf|CM010803.1:2755100-2758661|+ -           1107 198862               -            658         0 1093.8  50.1   2   2  9.6e-284  9.6e-284  931.3  45.6   109   657   475  1102   461  1103 0.83 <unknown description>
+198862at5125_1736662_0:0006af|CM010803.1:2755907-2763476|+ -           2214 198862               -            658         0 1091.5  46.9   1   2   8.5e-48   8.5e-48  151.7   0.1     2   107     5   115     4   133 0.87 <unknown description>
+198862at5125_1736662_0:0006af|CM010803.1:2755907-2763476|+ -           2214 198862               -            658         0 1091.5  46.9   2   2  5.1e-284  5.1e-284  932.2  42.4   109   657   244   871   230   872 0.83 <unknown description>
+198862at5125_1163406_0:001c9f|CM010803.1:2756639-2758661|+ -            675 198862               -            658    2e-288  946.8  46.2   1   1    3e-284    3e-284  933.0  46.2   109   657    43   670    29   671 0.83 <unknown description>
+198862at5125_1331945_0:0011a6|CM010803.1:2757125-2758661|+ -            513 198862               -            658  5.1e-246  806.6  38.5   1   1  1.6e-243  1.6e-243  798.4  38.5   207   657     1   508     1   509 0.86 <unknown description>
+198862at5125_426428_0:0028be|CM010803.1:2755895-2757613|+  -            530 198862               -            658  1.3e-172  564.1  37.2   1   2   1.2e-48   1.2e-48  154.5   0.1     2   107     9   119     8   137 0.87 <unknown description>
+198862at5125_426428_0:0028be|CM010803.1:2755895-2757613|+  -            530 198862               -            658  1.3e-172  564.1  37.2   2   2  1.1e-124  1.1e-124  405.8  32.7   108   347   247   511   234   516 0.86 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/198862at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/198862at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/198862at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/198862at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/198862at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:58:42 2026
+# [ok]

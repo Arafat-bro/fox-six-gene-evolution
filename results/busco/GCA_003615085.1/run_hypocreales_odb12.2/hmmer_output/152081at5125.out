@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+152081at5125_858221_0:000887|CM010803.1:3816912-3825952|+  -           1130 152081               -           1100         0 1543.6 102.3   1   1         0         0 1542.4 102.3    35  1096    96  1128    69  1130 0.91 <unknown description>
+152081at5125_396571_0:00202e|CM010803.1:3822541-3825961|+  -           1141 152081               -           1100         0 1543.2 103.4   1   1         0         0 1542.1 103.4    35  1098   104  1138    77  1140 0.91 <unknown description>
+152081at5125_5507_3:0020fe|CM010803.1:3823660-3825961|+    -            754 152081               -           1100         0 1174.0  36.5   1   1         0         0 1173.9  36.5   312  1098     3   751     1   753 0.92 <unknown description>
+152081at5125_57161_0:002c39|CM010803.1:3824149-3825961|+   -            605 152081               -           1100  6.3e-296  973.9  31.8   1   1  1.8e-295  1.8e-295  972.4  31.8   490  1098     6   602     2   604 0.91 <unknown description>
+152081at5125_1325734_0:001550|CM010803.1:3822541-3824713|+ -            725 152081               -           1100  1.1e-255  840.6  97.3   1   1  1.4e-255  1.4e-255  840.3  97.3    35   676   104   723    77   725 0.91 <unknown description>
+152081at5125_1325734_0:00157e|CM010803.1:3824902-3825961|+ -            354 152081               -           1100  4.9e-199  653.0   7.5   1   1  5.4e-199  5.4e-199  652.9   7.5   738  1098     3   351     1   353 0.94 <unknown description>
+152081at5125_2010991_0:002929|CM010803.1:3822541-3824047|+ -            503 152081               -           1100  1.5e-155  509.1  79.6   1   1  1.9e-155  1.9e-155  508.7  79.6    34   439   103   503    76   503 0.90 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/152081at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/152081at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/152081at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/152081at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/152081at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:57:58 2026
+# [ok]

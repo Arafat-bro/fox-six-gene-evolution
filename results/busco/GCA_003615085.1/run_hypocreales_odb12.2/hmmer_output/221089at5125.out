@@ -1,0 +1,24 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+221089at5125_1089452_0:001977|CM010803.1:2405415-2406939|- -            363 221089               -            237  3.5e-150  486.8  13.0   1   3      0.51      0.51   -1.5   0.0    78   109     8    40     4    57 0.80 <unknown description>
+221089at5125_1089452_0:001977|CM010803.1:2405415-2406939|- -            363 221089               -            237  3.5e-150  486.8  13.0   2   3   6.9e-13   6.9e-13   37.3   2.4     1    43    79   126    79   129 0.84 <unknown description>
+221089at5125_1089452_0:001977|CM010803.1:2405415-2406939|- -            363 221089               -            237  3.5e-150  486.8  13.0   3   3  5.1e-141  5.1e-141  456.8   2.2     3   237   124   362   122   362 0.95 <unknown description>
+221089at5125_1080343_0:001c5e|CM010803.1:2405415-2406476|- -            335 221089               -            237  4.9e-148  479.7  15.5   1   3   0.00011   0.00011   10.5   0.4     1    19    33    51    33    64 0.87 <unknown description>
+221089at5125_1080343_0:001c5e|CM010803.1:2405415-2406476|- -            335 221089               -            237  4.9e-148  479.7  15.5   2   3   3.6e-08   3.6e-08   21.9   2.0     9    43    64    98    54   101 0.77 <unknown description>
+221089at5125_1080343_0:001c5e|CM010803.1:2405415-2406476|- -            335 221089               -            237  4.9e-148  479.7  15.5   3   3  3.6e-141  3.6e-141  457.3   2.1     3   237    96   334    94   334 0.95 <unknown description>
+221089at5125_86546_0:00241c|CM010803.1:2405415-2406224|-   -            251 221089               -            237  9.8e-142  459.1   1.7   1   2      0.31      0.31   -0.8   0.9    31    41     2    12     1    18 0.44 <unknown description>
+221089at5125_86546_0:00241c|CM010803.1:2405415-2406224|-   -            251 221089               -            237  9.8e-142  459.1   1.7   2   2  9.8e-142  9.8e-142  459.1   1.7     3   237    12   250    10   250 0.95 <unknown description>
+221089at5125_327505_0:00238d|CM010803.1:2405415-2406050|-  -            193 221089               -            237  1.7e-127  412.5   0.6   1   1  1.9e-127  1.9e-127  412.4   0.6    51   237     6   192     1   192 0.97 <unknown description>
+221089at5125_1896173_0:00245b|CM010803.1:2405636-2406116|- -            161 221089               -            237   1.2e-91  295.1   0.7   1   1   1.3e-91   1.3e-91  295.0   0.7    30   182     4   159     1   161 0.92 <unknown description>
+221089at5125_93591_0:001d56|CM010803.1:2405415-2405840|-   -            123 221089               -            237   1.5e-88  285.0   4.8   1   1   1.7e-88   1.7e-88  284.8   4.8   116   237     1   122     1   122 1.00 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221089at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221089at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/221089at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221089at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221089at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:04 2026
+# [ok]

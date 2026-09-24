@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+223807at5125_100902_0:004c29|CM010800.1:2247288-2247729|-  -            148 223807               -            133   2.3e-74  236.8   0.2   1   1   2.3e-74   2.6e-74  236.6   0.2     3   132    15   146    13   147 0.96 <unknown description>
+223807at5125_1531966_0:00056c|CM010800.1:2247291-2254323|- -            208 223807               -            133   1.7e-73  234.0   0.3   1   1   2.2e-73   2.5e-73  233.4   0.3     5   132    78   207    74   208 0.96 <unknown description>
+223807at5125_1081104_0:002688|CM010800.1:2247297-2259128|- -            221 223807               -            133   1.8e-73  233.9   0.3   1   1     2e-73   2.3e-73  233.5   0.3     3   130    91   220    89   221 0.97 <unknown description>
+223807at5125_1399860_0:000733|CM010800.1:2247321-2252866|- -            229 223807               -            133   2.1e-71  227.2   0.1   1   1   2.7e-71   3.1e-71  226.6   0.1     3   122   107   226   105   229 0.97 <unknown description>
+223807at5125_2004952_0:001d8c|CM010800.1:2247297-2247636|- -            114 223807               -            133   3.8e-66  210.2   0.1   1   1   3.6e-66   4.1e-66  210.1   0.1    20   130     1   113     1   114 0.97 <unknown description>
+223807at5125_1081102_0:001cb5|CM010800.1:2247375-2247699|- -            109 223807               -            133   2.2e-65  207.7   0.2   1   1   2.1e-65   2.4e-65  207.6   0.2     3   106     5   108     3   109 0.98 <unknown description>
+223807at5125_1325737_0:003a9c|CM010800.1:2247288-2247477|- -             64 223807               -            133   2.9e-30   94.1   0.1   1   1   2.8e-30   3.2e-30   94.0   0.1    73   132     1    62     1    63 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/223807at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/223807at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/223807at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/223807at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/223807at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:20 2026
+# [ok]

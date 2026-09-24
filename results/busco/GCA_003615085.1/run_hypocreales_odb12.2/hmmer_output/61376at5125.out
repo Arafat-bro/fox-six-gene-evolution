@@ -1,0 +1,20 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+61376at5125_100902_0:0012db|CM010801.1:799114-801299|+  -            660 61376                -            604         0 1322.1  20.7   1   2   8.6e-26   8.6e-26   78.5   9.3     1    61     7    67     7   100 0.84 <unknown description>
+61376at5125_100902_0:0012db|CM010801.1:799114-801299|+  -            660 61376                -            604         0 1322.1  20.7   2   2         0         0 1249.7   4.2    55   604    95   657    71   657 0.96 <unknown description>
+61376at5125_1399860_0:000745|CM010801.1:792968-801299|+ -            704 61376                -            604         0 1320.3  20.9   1   2   2.7e-25   2.7e-25   76.9   9.6     2    61    52   111    51   143 0.85 <unknown description>
+61376at5125_1399860_0:000745|CM010801.1:792968-801299|+ -            704 61376                -            604         0 1320.3  20.9   2   2         0         0 1249.5   3.9    56   604   140   701   118   701 0.96 <unknown description>
+61376at5125_1053134_0:0021df|CM010801.1:798528-801299|+ -            801 61376                -            604         0 1319.5  20.9   1   2   2.9e-25   2.9e-25   76.8   9.4     2    61   149   208   148   241 0.83 <unknown description>
+61376at5125_1053134_0:0021df|CM010801.1:798528-801299|+ -            801 61376                -            604         0 1319.5  20.9   2   2         0         0 1248.6   4.3    56   604   237   798   214   798 0.96 <unknown description>
+61376at5125_983965_0:000e90|CM010801.1:799668-801299|+  -            514 61376                -            604         0 1158.1   7.0   1   1         0         0 1157.9   7.0   107   604     3   511     1   511 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/61376at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/61376at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/61376at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/61376at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/61376at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:24 2026
+# [ok]

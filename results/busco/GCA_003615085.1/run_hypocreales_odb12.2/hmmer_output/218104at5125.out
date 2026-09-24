@@ -1,0 +1,21 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+218104at5125_396571_0:00176b|CM010802.1:1220097-1224003|-  -           1259 218104               -           1032         0 1723.7  53.4   1   2    0.0098    0.0098    1.7   6.6     2    39    80   123    79   152 0.61 <unknown description>
+218104at5125_396571_0:00176b|CM010802.1:1220097-1224003|-  -           1259 218104               -           1032         0 1723.7  53.4   2   2         0         0 1716.2  41.2    21  1032   148  1258   131  1258 0.86 <unknown description>
+218104at5125_2898082_0:001a7e|CM010802.1:1220097-1226702|- -           1628 218104               -           1032         0 1722.9  52.2   1   3     0.011     0.011    1.6   6.1     2    39   449   492   448   517 0.62 <unknown description>
+218104at5125_2898082_0:001a7e|CM010802.1:1220097-1226702|- -           1628 218104               -           1032         0 1722.9  52.2   2   3  2.8e-121  2.8e-121  394.2   8.3    20   273   516   783   496   785 0.83 <unknown description>
+218104at5125_2898082_0:001a7e|CM010802.1:1220097-1226702|- -           1628 218104               -           1032         0 1722.9  52.2   3   3         0         0 1337.0  24.7   258  1032   784  1627   781  1627 0.88 <unknown description>
+218104at5125_1491479_0:003261|CM010802.1:1220097-1222976|- -            943 218104               -           1032         0 1475.2  35.3   1   2   2.6e-45   2.6e-45  142.7   1.6   181   273     1    98     1   100 0.88 <unknown description>
+218104at5125_1491479_0:003261|CM010802.1:1220097-1222976|- -            943 218104               -           1032         0 1475.2  35.3   2   2         0         0 1337.9  26.2   258  1032    99   942    96   942 0.88 <unknown description>
+218104at5125_92637_0:0012bb|CM010802.1:1220097-1221907|-   -            586 218104               -           1032  1.4e-251  825.6  17.6   1   1    6e-251    6e-251  823.5  17.6   560  1032    71   585    62   585 0.87 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/218104at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/218104at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/218104at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/218104at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/218104at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:58:53 2026
+# [ok]

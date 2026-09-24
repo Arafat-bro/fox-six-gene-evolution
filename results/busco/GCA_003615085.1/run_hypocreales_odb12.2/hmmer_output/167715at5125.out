@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+167715at5125_1080343_0:001881|CM010800.1:4248091-4249787|+ -            533 167715               -            481  6.9e-299  979.5  19.6   1   2     3e-21     3e-21   63.9  14.6     4    89    11   102     1   114 0.71 <unknown description>
+167715at5125_1080343_0:001881|CM010800.1:4248091-4249787|+ -            533 167715               -            481  6.9e-299  979.5  19.6   2   2  1.2e-280  1.2e-280  919.3   0.5    70   481   110   532   100   532 0.95 <unknown description>
+167715at5125_1247861_0:00108d|CM010800.1:4248091-4251492|+ -            868 167715               -            481  4.9e-294  963.4  19.9   1   2   5.7e-21   5.7e-21   62.9  14.3     4    88    11   101     1   112 0.71 <unknown description>
+167715at5125_1247861_0:00108d|CM010800.1:4248091-4251492|+ -            868 167715               -            481  4.9e-294  963.4  19.9   2   2  4.7e-276  4.7e-276  904.2   0.6    70   474   110   525   100   531 0.94 <unknown description>
+167715at5125_1208366_0:000125|CM010800.1:4248091-4249360|+ -            424 167715               -            481  8.6e-219  715.3  17.6   1   2   1.8e-21   1.8e-21   64.6  14.7     4    90    11   103     1   117 0.70 <unknown description>
+167715at5125_1208366_0:000125|CM010800.1:4248091-4249360|+ -            424 167715               -            481  8.6e-219  715.3  17.6   2   2  6.4e-200  6.4e-200  653.1   0.1    70   373   110   424    99   424 0.93 <unknown description>
+167715at5125_2692428_0:003b18|CM010800.1:4248925-4249507|+ -            195 167715               -            481  9.2e-150  487.7   4.5   1   1    1e-149    1e-149  487.5   4.5   228   421     1   194     1   195 1.00 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/167715at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/167715at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/167715at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/167715at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/167715at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:58:20 2026
+# [ok]

@@ -1,0 +1,51 @@
+2026-09-24 13:11:51 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 09/24/2026 13:11:51 *****
+2026-09-24 13:11:51 INFO:	Configuring BUSCO with local environment
+2026-09-24 13:11:51 INFO:	Running genome mode
+2026-09-24 13:11:51 INFO:	'Force' option selected; overwriting previous results directory
+2026-09-24 13:11:51 INFO:	Input file is /home/arafat/Foxy_SIX_Evolution/data/genomes/raw/flat/GCA_003615085.1.fasta
+2026-09-24 13:11:51 INFO:	Using local lineages directory /home/arafat/busco_downloads/lineages/hypocreales_odb12.2
+2026-09-24 13:11:54 INFO:	Running BUSCO using lineage dataset hypocreales_odb12.2 (eukaryota, 2026-05-13)
+2026-09-24 13:11:54 INFO:	Running 1 job(s) on bbtools, starting at 09/24/2026 13:11:54
+2026-09-24 13:11:59 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-09-24 13:11:59 INFO:	Running 1 job(s) on miniprot_index, starting at 09/24/2026 13:11:59
+2026-09-24 13:12:25 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-09-24 13:13:14 INFO:	Running 1 job(s) on miniprot_align, starting at 09/24/2026 13:13:14
+2026-09-24 13:54:52 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2026-09-24 13:56:56 INFO:	***** Run HMMER on gene sequences *****
+2026-09-24 13:57:01 INFO:	Running 4077 job(s) on hmmsearch, starting at 09/24/2026 13:57:01
+2026-09-24 13:57:38 INFO:	[hmmsearch]	408 of 4077 task(s) completed
+2026-09-24 13:57:52 INFO:	[hmmsearch]	816 of 4077 task(s) completed
+2026-09-24 13:58:06 INFO:	[hmmsearch]	1224 of 4077 task(s) completed
+2026-09-24 13:58:18 INFO:	[hmmsearch]	1631 of 4077 task(s) completed
+2026-09-24 13:58:33 INFO:	[hmmsearch]	2039 of 4077 task(s) completed
+2026-09-24 13:58:46 INFO:	[hmmsearch]	2447 of 4077 task(s) completed
+2026-09-24 13:58:59 INFO:	[hmmsearch]	2854 of 4077 task(s) completed
+2026-09-24 13:59:11 INFO:	[hmmsearch]	3262 of 4077 task(s) completed
+2026-09-24 13:59:22 INFO:	[hmmsearch]	3670 of 4077 task(s) completed
+2026-09-24 13:59:41 INFO:	[hmmsearch]	4077 of 4077 task(s) completed
+2026-09-24 13:59:47 INFO:	180 candidate overlapping regions found
+2026-09-24 13:59:47 INFO:	12082 exons in total
+2026-09-24 14:00:09 WARNING:	209 of 4018 Complete matches (5.2%) contain internal stop codons in Miniprot gene predictions
+2026-09-24 14:00:18 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hypocreales_odb12.2                                                  |
+    -------------------------------------------------------------------------------------------
+    |C:98.6%[S:97.9%,D:0.7%],F:0.0%,M:1.4%,n:4077,E:5.2%                                       |
+    |4018    Complete BUSCOs (C)    (of which 209 contain internal stop codons)                |
+    |3991    Complete and single-copy BUSCOs (S)                                               |
+    |27    Complete and duplicated BUSCOs (D)                                                  |
+    |2    Fragmented BUSCOs (F)                                                                |
+    |57    Missing BUSCOs (M)                                                                  |
+    |4077    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2026-09-24 14:00:18 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2907 seconds
+
+***** Summary of warnings: *****
+2026-09-24 14:00:09 WARNING:busco.busco_tools.hmmer	209 of 4018 Complete matches (5.2%) contain internal stop codons in Miniprot gene predictions
+
+2026-09-24 14:00:18 INFO:	Results written in /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1
+2026-09-24 14:00:18 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-09-24 14:00:18 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2026-09-24 14:00:19 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.

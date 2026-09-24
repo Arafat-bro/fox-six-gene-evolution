@@ -1,0 +1,20 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+175002at5125_396571_0:000f45|MRCU01000005.1:1537564-1539858|-  -            682 175002               -            559  1.4e-256  840.7  14.7   1   2   1.4e-86   1.4e-86  279.5   0.0     1   195     1   233     1   257 0.78 <unknown description>
+175002at5125_396571_0:000f45|MRCU01000005.1:1537564-1539858|-  -            682 175002               -            559  1.4e-256  840.7  14.7   2   2  1.1e-169  1.1e-169  553.9  17.1   206   557   276   676   271   678 0.84 <unknown description>
+175002at5125_96774_0:001015|MRCU01000005.1:1537564-1539213|-   -            510 175002               -            559  1.2e-190  623.0  22.3   1   2   1.8e-22   1.8e-22   67.9   0.1   141   203     1    78     1    87 0.78 <unknown description>
+175002at5125_96774_0:001015|MRCU01000005.1:1537564-1539213|-   -            510 175002               -            559  1.2e-190  623.0  22.3   2   2  7.1e-170  7.1e-170  554.5  17.8   206   557   104   504    99   506 0.84 <unknown description>
+175002at5125_92637_0:0026c2|MRCU01000005.1:1538125-1539858|-   -            512 175002               -            559  7.8e-185  603.9  19.3   1   2   2.6e-85   2.6e-85  275.3   0.0     1   203     1   249     1   258 0.77 <unknown description>
+175002at5125_92637_0:0026c2|MRCU01000005.1:1538125-1539858|-   -            512 175002               -            559  7.8e-185  603.9  19.3   2   2   1.6e-99   1.6e-99  322.3  21.5   206   414   275   503   270   512 0.86 <unknown description>
+175002at5125_1736662_0:0020bd|MRCU01000005.1:1537564-1538284|- -            223 175002               -            559   3.7e-84  271.5   1.9   1   1   1.7e-83   1.7e-83  269.4   1.9   376   557     7   217     1   219 0.81 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/175002at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/175002at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/175002at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/175002at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/175002at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:58:34 2026
+# [ok]

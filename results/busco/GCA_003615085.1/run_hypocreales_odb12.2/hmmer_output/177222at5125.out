@@ -1,0 +1,20 @@
+#                                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+177222at5125_327505_0:000d5d|MRCU01000005.1:901362-902374|-  -            319 177222               -            327    6e-160  520.4  52.8   1   1  6.7e-160  6.7e-160  520.3  52.8     1   322     1   318     1   318 0.95 <unknown description>
+177222at5125_268505_0:00073d|MRCU01000005.1:897200-902374|-  -            358 177222               -            327  9.7e-159  516.4  50.4   1   1  1.3e-158  1.3e-158  516.0  50.4     1   319     1   315     1   323 0.93 <unknown description>
+177222at5125_40199_0:001cfa|MRCU01000005.1:901614-902374|-   -            235 177222               -            327  5.6e-149  484.3  17.0   1   1  6.2e-149  6.2e-149  484.2  17.0     1   236     1   234     1   235 0.97 <unknown description>
+177222at5125_1399860_1:000f2b|MRCU01000005.1:901800-902374|- -            173 177222               -            327  3.6e-125  406.1   2.8   1   1    4e-125    4e-125  406.0   2.8     1   174     1   173     1   173 0.99 <unknown description>
+177222at5125_1330021_0:0019da|MRCU01000005.1:900528-902374|- -            529 177222               -            327  1.2e-107  348.5  27.0   1   2  1.3e-105  1.3e-105  341.8   3.3     1   145     1   145     1   146 0.99 <unknown description>
+177222at5125_1330021_0:0019da|MRCU01000005.1:900528-902374|- -            529 177222               -            327  1.2e-107  348.5  27.0   2   2   1.4e-05   1.4e-05   13.1  19.0   192   234   142   184   140   278 0.60 <unknown description>
+177222at5125_1344414_0:0017be|MRCU01000005.1:901980-902259|- -             94 177222               -            327   3.4e-75  241.8   0.9   1   1   3.7e-75   3.7e-75  241.7   0.9    20   112     1    93     1    94 0.99 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/177222at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/177222at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/177222at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/177222at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/177222at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:58:26 2026
+# [ok]

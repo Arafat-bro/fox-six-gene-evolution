@@ -1,0 +1,29 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+215222at5125_1080343_0:00033e|MRCU01000005.1:4054991-4057241|- -            691 215222               -            570         0 1035.0   5.9   1   4  1.8e-246  1.8e-246  808.0   0.0     2   389    12   422    11   428 0.95 <unknown description>
+215222at5125_1080343_0:00033e|MRCU01000005.1:4054991-4057241|- -            691 215222               -            570         0 1035.0   5.9   2   4   7.7e-08   7.7e-08   20.2   2.0   375   443   429   505   419   511 0.65 <unknown description>
+215222at5125_1080343_0:00033e|MRCU01000005.1:4054991-4057241|- -            691 215222               -            570         0 1035.0   5.9   3   4   0.00015   0.00015    9.3   0.8   418   461   499   542   492   552 0.78 <unknown description>
+215222at5125_1080343_0:00033e|MRCU01000005.1:4054991-4057241|- -            691 215222               -            570         0 1035.0   5.9   4   4   1.2e-62   1.2e-62  201.1   0.4   420   570   526   685   522   685 0.86 <unknown description>
+215222at5125_36050_0:00262b|MRCU01000005.1:4052235-4057241|-   -           1054 215222               -            570         0 1031.5   5.7   1   3  5.1e-246  5.1e-246  806.5   0.0     2   389    12   422    11   428 0.95 <unknown description>
+215222at5125_36050_0:00262b|MRCU01000005.1:4052235-4057241|-   -           1054 215222               -            570         0 1031.5   5.7   2   3   2.1e-07   2.1e-07   18.8   5.9   375   453   429   515   420   552 0.55 <unknown description>
+215222at5125_36050_0:00262b|MRCU01000005.1:4052235-4057241|-   -           1054 215222               -            570         0 1031.5   5.7   3   3     2e-62     2e-62  200.4   0.5   419   570   525   685   521   685 0.86 <unknown description>
+215222at5125_1859967_0:001c2c|MRCU01000005.1:4052235-4066311|- -           1130 215222               -            570         0 1031.0   5.7   1   3  5.9e-246  5.9e-246  806.3   0.0     2   389    88   498    87   504 0.95 <unknown description>
+215222at5125_1859967_0:001c2c|MRCU01000005.1:4052235-4066311|- -           1130 215222               -            570         0 1031.0   5.7   2   3   2.5e-07   2.5e-07   18.5   6.2   375   453   505   591   496   635 0.56 <unknown description>
+215222at5125_1859967_0:001c2c|MRCU01000005.1:4052235-4066311|- -           1130 215222               -            570         0 1031.0   5.7   3   3   2.5e-62   2.5e-62  200.1   0.4   420   570   602   761   598   761 0.86 <unknown description>
+215222at5125_327505_0:000acb|MRCU01000005.1:4055726-4057241|-  -            446 215222               -            570  2.8e-247  810.7   0.0   1   1  3.8e-247  3.8e-247  810.2   0.0     2   389    12   422    11   432 0.95 <unknown description>
+215222at5125_29875_0:001ee7|MRCU01000005.1:4056041-4057241|-   -            341 215222               -            570  2.1e-224  735.2   0.0   1   1  2.7e-224  2.7e-224  734.8   0.0     2   317    12   341    11   341 0.98 <unknown description>
+215222at5125_117187_0:000d21|MRCU01000005.1:4054991-4056554|-  -            522 215222               -            570  2.1e-205  672.4  15.9   1   3  4.6e-139  4.6e-139  453.4   0.6   149   389     1   253     1   262 0.93 <unknown description>
+215222at5125_117187_0:000d21|MRCU01000005.1:4054991-4056554|-  -            522 215222               -            570  2.1e-205  672.4  15.9   2   3   1.2e-07   1.2e-07   19.6   6.4   376   454   261   347   252   383 0.55 <unknown description>
+215222at5125_117187_0:000d21|MRCU01000005.1:4054991-4056554|-  -            522 215222               -            570  2.1e-205  672.4  15.9   3   3     2e-62     2e-62  200.4   0.2   437   570   375   516   358   516 0.86 <unknown description>
+215222at5125_2004951_0:001111|MRCU01000005.1:4056311-4057241|- -            251 215222               -            570  6.9e-172  561.8   0.2   1   1  9.5e-172  9.5e-172  561.3   0.2     2   230    12   251    11   251 0.99 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/215222at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/215222at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/hmmer_output/215222at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/215222at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003615085.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/215222at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:59:02 2026
+# [ok]
