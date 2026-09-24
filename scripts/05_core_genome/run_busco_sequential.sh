@@ -15,7 +15,7 @@ GENOMES=(
   "GCA_049306905.1"
 )
 
-LINEAGE_PATH="$HOME/busco_downloads/lineages/fungi_odb12.2"
+LINEAGE_PATH="$HOME/busco_downloads/lineages/hypocreales_odb12.2"
 GENOME_DIR="data/genomes/raw/flat"   # adjust if your flattened genome FASTAs live elsewhere
 OUT_DIR="results/busco"
 
@@ -27,7 +27,7 @@ for acc in "${GENOMES[@]}"; do
   echo "=========================================="
 
   # Skip if already complete (idempotent — safe to re-run after a crash)
-  if [ -f "$OUT_DIR/$acc/run_fungi_odb12.2/full_table.tsv" ]; then
+  if [ -f "$OUT_DIR/$acc/run_hypocreales_odb12.2/full_table.tsv" ]; then
     echo "$acc already has full_table.tsv — skipping."
     continue
   fi
@@ -44,13 +44,13 @@ for acc in "${GENOMES[@]}"; do
 
   status=$?
 
-  if [ $status -eq 0 ] && [ -f "$OUT_DIR/$acc/run_fungi_odb12.2/full_table.tsv" ]; then
+  if [ $status -eq 0 ] && [ -f "$OUT_DIR/$acc/run_hypocreales_odb12.2/full_table.tsv" ]; then
     echo "$acc finished successfully at $(date)"
     # Checkpoint: commit just the small summary output, not raw sequences
-    git add "$OUT_DIR/$acc/run_fungi_odb12.2/full_table.tsv" \
-            "$OUT_DIR/$acc/run_fungi_odb12.2/short_summary"*.txt \
+    git add "$OUT_DIR/$acc/run_hypocreales_odb12.2/full_table.tsv" \
+            "$OUT_DIR/$acc/run_hypocreales_odb12.2/short_summary"*.txt \
             "logs/${acc}.log" 2>/dev/null
-    git commit -m "BUSCO complete: $acc (fungi_odb12.2)" 2>/dev/null
+    git commit -m "BUSCO complete: $acc (hypocreales_odb12.2)" 2>/dev/null
     git push origin main 2>/dev/null
   else
     echo "$acc FAILED or produced no full_table.tsv — check logs/${acc}.log" >&2
