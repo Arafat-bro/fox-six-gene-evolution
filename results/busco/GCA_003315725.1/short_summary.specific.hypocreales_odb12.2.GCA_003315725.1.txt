@@ -1,0 +1,30 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: hypocreales_odb12.2 (Creation date: 2026-05-13, number of genomes: 71, number of BUSCOs: 4077)
+# Summarized benchmarking in BUSCO notation for file /home/arafat/Foxy_SIX_Evolution/data/genomes/raw/flat/GCA_003315725.1.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:98.8%[S:98.0%,D:0.8%],F:0.0%,M:1.1%,n:4077,E:5.0%	   
+	4030	Complete BUSCOs (C)	(of which 202 contain internal stop codons)		   
+	3996	Complete and single-copy BUSCOs (S)	   
+	34	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	45	Missing BUSCOs (M)			   
+	4077	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	455	Number of scaffolds
+	504	Number of contigs
+	53918967	Total length
+	0.012%	Percent gaps
+	4 Mbp	Scaffold N50
+	1 Mbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

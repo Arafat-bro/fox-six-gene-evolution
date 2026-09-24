@@ -1,0 +1,20 @@
+#                                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+8238at5125_1089452_0:00321b|CM010342.1:2209938-2210465|- -            160 8238                 -            158   1.6e-86  276.7   0.1   1   1   1.8e-86   1.8e-86  276.5   0.1     2   157     2   157     1   158 0.99 <unknown description>
+8238at5125_1649129_0:000210|CM010342.1:2197556-2210403|- -            178 8238                 -            158   3.3e-84  269.1   0.2   1   1   3.9e-84   3.9e-84  268.9   0.2     6   157     2   153     1   154 0.99 <unknown description>
+8238at5125_40199_0:000aec|CM010342.1:2209938-2214669|-   -            273 8238                 -            158   5.4e-84  268.5   0.2   1   1   9.5e-84   9.5e-84  267.7   0.2     5   157   118   270   116   271 0.99 <unknown description>
+8238at5125_48490_0:001ca6|CM010342.1:2209938-2210719|-   -            241 8238                 -            158     2e-83  266.6   0.1   1   1   3.3e-83   3.3e-83  265.9   0.1     4   157    85   238    82   239 0.98 <unknown description>
+8238at5125_78410_0:000dff|CM010342.1:2209938-2210331|-   -            132 8238                 -            158     1e-72  231.9   0.1   1   1   1.1e-72   1.1e-72  231.7   0.1    29   157     1   129     1   130 0.99 <unknown description>
+8238at5125_1237068_0:000002|CM010342.1:2209938-2210232|- -             99 8238                 -            158   5.3e-54  171.0   0.1   1   1   5.8e-54   5.8e-54  170.9   0.1    62   157     1    96     1    97 0.99 <unknown description>
+8238at5125_2692428_0:00346a|CM010337.1:4346148-4346750|+ -            159 8238                 -            158   3.6e-33  103.3   0.1   1   1   4.3e-33   4.3e-33  103.1   0.1     3   151     7   153     5   157 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/8238at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/8238at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/8238at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/8238at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/8238at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:04:06 2026
+# [ok]

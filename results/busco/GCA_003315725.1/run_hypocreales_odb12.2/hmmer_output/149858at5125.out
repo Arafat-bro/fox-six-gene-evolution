@@ -1,0 +1,29 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+149858at5125_1089452_0:0014ae|CM010338.1:1666377-1669744|- -           1024 149858               -            857         0 1604.8   7.0   1   2  2.2e-297  2.2e-297  977.5   0.1     4   544    76   648    73   661 0.92 <unknown description>
+149858at5125_1089452_0:0014ae|CM010338.1:1666377-1669744|- -           1024 149858               -            857         0 1604.8   7.0   2   2  3.1e-192  3.1e-192  629.6   2.8   547   856   680  1005   658  1006 0.90 <unknown description>
+149858at5125_2885761_0:000804|CM010338.1:1666377-1671298|- -           1267 149858               -            857         0 1603.7   7.0   1   2  3.7e-297  3.7e-297  976.7   0.1     4   544   319   891   316   904 0.92 <unknown description>
+149858at5125_2885761_0:000804|CM010338.1:1666377-1671298|- -           1267 149858               -            857         0 1603.7   7.0   2   2  4.7e-192  4.7e-192  629.0   2.8   547   856   923  1248   901  1249 0.90 <unknown description>
+149858at5125_1247861_0:0023a9|CM010338.1:1666377-1675048|- -           1871 149858               -            857         0 1593.1  15.9   1   3       1.9       1.9   -4.9   1.6   642   706   734   799   721   801 0.59 <unknown description>
+149858at5125_1247861_0:0023a9|CM010338.1:1666377-1675048|- -           1871 149858               -            857         0 1593.1  15.9   2   3  8.5e-297  8.5e-297  975.5   0.1     4   544   923  1495   920  1508 0.92 <unknown description>
+149858at5125_1247861_0:0023a9|CM010338.1:1666377-1675048|- -           1871 149858               -            857         0 1593.1  15.9   3   3  8.7e-192  8.7e-192  628.1   2.7   547   856  1527  1852  1505  1853 0.90 <unknown description>
+149858at5125_911162_0:00105b|CM010338.1:1666377-1668875|-  -            752 149858               -            857         0 1249.2   6.8   1   2  1.4e-189  1.4e-189  620.8   0.1   194   544     1   376     1   388 0.91 <unknown description>
+149858at5125_911162_0:00105b|CM010338.1:1666377-1668875|-  -            752 149858               -            857         0 1249.2   6.8   2   2  1.8e-192  1.8e-192  630.4   3.0   547   856   408   733   386   734 0.90 <unknown description>
+149858at5125_83212_0:000543|CM010338.1:1667390-1669726|-   -            713 149858               -            857         0 1031.9   0.8   1   2    7e-298    7e-298  979.1   0.1     4   544    70   642    67   656 0.92 <unknown description>
+149858at5125_83212_0:000543|CM010338.1:1667390-1669726|-   -            713 149858               -            857         0 1031.9   0.8   2   2   1.4e-17   1.4e-17   51.7   0.1   547   585   674   712   652   713 0.84 <unknown description>
+149858at5125_1806559_0:00174f|CM010338.1:1667390-1694105|- -            749 149858               -            857         0 1030.4   2.7   1   3      0.22      0.22   -1.8   0.0   622   662    58    98    52   109 0.65 <unknown description>
+149858at5125_1806559_0:00174f|CM010338.1:1667390-1694105|- -            749 149858               -            857         0 1030.4   2.7   2   3  8.5e-298  8.5e-298  978.8   0.1     4   544   106   678   103   691 0.92 <unknown description>
+149858at5125_1806559_0:00174f|CM010338.1:1667390-1694105|- -            749 149858               -            857         0 1030.4   2.7   3   3   1.5e-17   1.5e-17   51.7   0.1   547   585   710   748   686   749 0.83 <unknown description>
+149858at5125_948311_1:0012ff|CM010338.1:1666377-1667591|-  -            373 149858               -            857  5.7e-194  635.3   1.2   1   1  6.9e-194  6.9e-194  635.1   1.2   547   856    29   354     8   355 0.90 <unknown description>
+149858at5125_83212_0:001e9b|CM010338.1:1666377-1667338|-   -            321 149858               -            857  4.4e-161  526.5   6.9   1   1  1.2e-160  1.2e-160  525.1   6.9   587   856     1   302     1   303 0.90 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/149858at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/149858at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/149858at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/149858at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/149858at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:02:19 2026
+# [ok]

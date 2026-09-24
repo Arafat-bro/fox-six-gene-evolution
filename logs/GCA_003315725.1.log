@@ -1,0 +1,50 @@
+2026-09-24 12:17:55 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 09/24/2026 12:17:55 *****
+2026-09-24 12:17:55 INFO:	Configuring BUSCO with local environment
+2026-09-24 12:17:55 INFO:	Running genome mode
+2026-09-24 12:17:56 INFO:	Input file is /home/arafat/Foxy_SIX_Evolution/data/genomes/raw/flat/GCA_003315725.1.fasta
+2026-09-24 12:17:56 INFO:	Using local lineages directory /home/arafat/busco_downloads/lineages/hypocreales_odb12.2
+2026-09-24 12:17:59 INFO:	Running BUSCO using lineage dataset hypocreales_odb12.2 (eukaryota, 2026-05-13)
+2026-09-24 12:17:59 INFO:	Running 1 job(s) on bbtools, starting at 09/24/2026 12:17:59
+2026-09-24 12:18:02 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-09-24 12:18:02 INFO:	Running 1 job(s) on miniprot_index, starting at 09/24/2026 12:18:02
+2026-09-24 12:18:06 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-09-24 12:18:28 INFO:	Running 1 job(s) on miniprot_align, starting at 09/24/2026 12:18:28
+2026-09-24 13:00:21 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2026-09-24 13:01:42 INFO:	***** Run HMMER on gene sequences *****
+2026-09-24 13:01:49 INFO:	Running 4077 job(s) on hmmsearch, starting at 09/24/2026 13:01:49
+2026-09-24 13:02:19 INFO:	[hmmsearch]	408 of 4077 task(s) completed
+2026-09-24 13:02:30 INFO:	[hmmsearch]	816 of 4077 task(s) completed
+2026-09-24 13:02:40 INFO:	[hmmsearch]	1224 of 4077 task(s) completed
+2026-09-24 13:02:52 INFO:	[hmmsearch]	1631 of 4077 task(s) completed
+2026-09-24 13:03:05 INFO:	[hmmsearch]	2039 of 4077 task(s) completed
+2026-09-24 13:03:17 INFO:	[hmmsearch]	2447 of 4077 task(s) completed
+2026-09-24 13:03:31 INFO:	[hmmsearch]	2854 of 4077 task(s) completed
+2026-09-24 13:03:41 INFO:	[hmmsearch]	3262 of 4077 task(s) completed
+2026-09-24 13:03:53 INFO:	[hmmsearch]	3670 of 4077 task(s) completed
+2026-09-24 13:04:12 INFO:	[hmmsearch]	4077 of 4077 task(s) completed
+2026-09-24 13:04:19 INFO:	159 candidate overlapping regions found
+2026-09-24 13:04:19 INFO:	12190 exons in total
+2026-09-24 13:04:39 WARNING:	202 of 4030 Complete matches (5.0%) contain internal stop codons in Miniprot gene predictions
+2026-09-24 13:04:47 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hypocreales_odb12.2                                                  |
+    -------------------------------------------------------------------------------------------
+    |C:98.8%[S:98.0%,D:0.8%],F:0.0%,M:1.1%,n:4077,E:5.0%                                       |
+    |4030    Complete BUSCOs (C)    (of which 202 contain internal stop codons)                |
+    |3996    Complete and single-copy BUSCOs (S)                                               |
+    |34    Complete and duplicated BUSCOs (D)                                                  |
+    |2    Fragmented BUSCOs (F)                                                                |
+    |45    Missing BUSCOs (M)                                                                  |
+    |4077    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2026-09-24 13:04:47 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2811 seconds
+
+***** Summary of warnings: *****
+2026-09-24 13:04:39 WARNING:busco.busco_tools.hmmer	202 of 4030 Complete matches (5.0%) contain internal stop codons in Miniprot gene predictions
+
+2026-09-24 13:04:47 INFO:	Results written in /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1
+2026-09-24 13:04:47 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-09-24 13:04:47 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2026-09-24 13:04:48 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.

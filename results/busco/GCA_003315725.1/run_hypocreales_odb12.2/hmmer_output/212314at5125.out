@@ -1,0 +1,18 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+212314at5125_72712_0:001d7a|CM010335.1:2231936-2233239|-   -            383 212314               -            375  8.3e-237  773.6   3.2   1   1  9.3e-237  9.3e-237  773.4   3.2     1   375     1   382     1   382 0.97 <unknown description>
+212314at5125_660122_0:000205|CM010335.1:2231936-2232930|-  -            315 212314               -            375  4.5e-200  652.7   2.2   1   1    5e-200    5e-200  652.5   2.2    66   375     1   314     1   314 0.98 <unknown description>
+212314at5125_93591_0:002264|CM010335.1:2232677-2233239|-   -            153 212314               -            375   1.7e-80  259.2   0.2   1   1   1.9e-80   1.9e-80  259.0   0.2     1   132     1   135     1   139 0.95 <unknown description>
+212314at5125_93591_0:002477|CM010335.1:2231936-2232429|-   -            148 212314               -            375   2.1e-76  245.7   4.3   1   1   2.3e-76   2.3e-76  245.6   4.3   233   375     1   147     1   147 0.96 <unknown description>
+212314at5125_2692428_0:003665|CM010335.1:2232795-2233239|- -            114 212314               -            375   2.3e-67  215.9   0.0   1   1   2.6e-67   2.6e-67  215.8   0.0     1   111     1   114     1   114 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/212314at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/212314at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/212314at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/212314at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/212314at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:03:27 2026
+# [ok]

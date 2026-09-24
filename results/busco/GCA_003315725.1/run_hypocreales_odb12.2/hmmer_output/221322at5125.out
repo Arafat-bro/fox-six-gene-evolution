@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+221322at5125_36050_0:002438|CM010341.1:1548657-1551969|-   -            586 221322               -            558         0 1042.2   0.0   1   1         0         0 1041.8   0.0    15   557    16   570     6   571 0.96 <unknown description>
+221322at5125_48484_0:00242a|CM010341.1:1548657-1550562|-   -            618 221322               -            558         0 1041.2   0.0   1   1         0         0 1040.8   0.0    19   557    52   602    16   603 0.97 <unknown description>
+221322at5125_1567552_0:001159|CM010341.1:1548696-1554586|- -           1009 221322               -            558         0 1038.8   0.0   1   1         0         0 1038.4   0.0    20   557   457  1006   450  1007 0.97 <unknown description>
+221322at5125_72712_0:003d76|CM010341.1:1548657-1549881|-   -            409 221322               -            558  1.9e-226  741.6   0.0   1   1  2.2e-226  2.2e-226  741.4   0.0   175   557     1   393     1   394 0.96 <unknown description>
+221322at5125_468837_0:00104f|CM010341.1:1549251-1550500|-  -            382 221322               -            558  8.9e-222  726.2   0.0   1   1  9.9e-222  9.9e-222  726.0   0.0     6   377     1   380     1   382 0.97 <unknown description>
+221322at5125_94208_0:00191b|CM010341.1:1548684-1549626|-   -            315 221322               -            558  5.8e-180  588.1   0.0   1   1  6.5e-180  6.5e-180  588.0   0.0   257   557     1   308     1   309 0.97 <unknown description>
+221322at5125_1159556_0:0018ee|CM010341.1:1548696-1549398|- -            235 221322               -            558    2e-124  404.8   0.0   1   1  2.3e-124  2.3e-124  404.6   0.0   333   557     1   232     1   233 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221322at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221322at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/221322at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221322at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221322at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:03:38 2026
+# [ok]

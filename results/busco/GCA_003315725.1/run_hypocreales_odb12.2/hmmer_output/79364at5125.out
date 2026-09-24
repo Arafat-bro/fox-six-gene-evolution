@@ -1,0 +1,30 @@
+#                                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+79364at5125_72712_0:002685|CM010339.1:2175849-2180263|-   -           1171 79364                -            946         0 1832.0   0.7   1   4   1.4e-86   1.4e-86  279.5   0.0     2   169    54   226    53   233 0.95 <unknown description>
+79364at5125_72712_0:002685|CM010339.1:2175849-2180263|-   -           1171 79364                -            946         0 1832.0   0.7   2   4  2.6e-104  2.6e-104  338.2   0.2   168   367   258   464   249   480 0.90 <unknown description>
+79364at5125_72712_0:002685|CM010339.1:2175849-2180263|-   -           1171 79364                -            946         0 1832.0   0.7   3   4   5.5e-64   5.5e-64  204.7   0.0   359   505   484   641   468   672 0.83 <unknown description>
+79364at5125_72712_0:002685|CM010339.1:2175849-2180263|-   -           1171 79364                -            946         0 1832.0   0.7   4   4  9.3e-306  9.3e-306 1004.9   0.0   498   946   679  1132   674  1132 0.98 <unknown description>
+79364at5125_42673_0:003b35|CM010339.1:2176536-2180032|-   -           1101 79364                -            946         0 1813.8   1.3   1   4   7.8e-81   7.8e-81  260.5   0.0    11   169    31   194    23   201 0.92 <unknown description>
+79364at5125_42673_0:003b35|CM010339.1:2176536-2180032|-   -           1101 79364                -            946         0 1813.8   1.3   2   4  2.3e-104  2.3e-104  338.3   0.2   168   367   226   432   217   448 0.90 <unknown description>
+79364at5125_42673_0:003b35|CM010339.1:2176536-2180032|-   -           1101 79364                -            946         0 1813.8   1.3   3   4   5.1e-64   5.1e-64  204.8   0.0   359   505   452   609   436   640 0.83 <unknown description>
+79364at5125_42673_0:003b35|CM010339.1:2176536-2180032|-   -           1101 79364                -            946         0 1813.8   1.3   4   4  3.9e-306  3.9e-306 1006.1   0.0   498   946   647  1100   642  1100 0.98 <unknown description>
+79364at5125_468837_0:000b67|CM010339.1:2176536-2179262|-  -            877 79364                -            946         0 1552.8   1.1   1   3  3.1e-104  3.1e-104  337.9   0.2   170   364     4   205     1   217 0.91 <unknown description>
+79364at5125_468837_0:000b67|CM010339.1:2176536-2179262|-  -            877 79364                -            946         0 1552.8   1.1   2   3   3.6e-64   3.6e-64  205.3   0.0   359   505   228   385   212   416 0.83 <unknown description>
+79364at5125_468837_0:000b67|CM010339.1:2176536-2179262|-  -            877 79364                -            946         0 1552.8   1.1   3   3    2e-306    2e-306 1007.1   0.0   497   946   422   876   406   876 0.98 <unknown description>
+79364at5125_1147111_0:0024a3|CM010339.1:2177597-2180263|- -            812 79364                -            946         0 1125.2   5.3   1   4   7.7e-87   7.7e-87  280.3   0.0     2   169    54   226    53   233 0.95 <unknown description>
+79364at5125_1147111_0:0024a3|CM010339.1:2177597-2180263|- -            812 79364                -            946         0 1125.2   5.3   2   4  1.7e-104  1.7e-104  338.8   0.2   168   363   258   460   249   471 0.91 <unknown description>
+79364at5125_1147111_0:0024a3|CM010339.1:2177597-2180263|- -            812 79364                -            946         0 1125.2   5.3   3   4   3.1e-64   3.1e-64  205.6   0.0   359   505   484   641   467   672 0.83 <unknown description>
+79364at5125_1147111_0:0024a3|CM010339.1:2177597-2180263|- -            812 79364                -            946         0 1125.2   5.3   4   4   1.2e-92   1.2e-92  299.5   0.8   497   627   678   808   662   812 0.96 <unknown description>
+79364at5125_1567541_0:003151|CM010339.1:2179286-2180263|- -            308 79364                -            946   5.7e-82  264.2   1.2   1   2      0.33      0.33   -3.1   1.2   364   364    50    50     6    68 0.42 <unknown description>
+79364at5125_1567541_0:003151|CM010339.1:2179286-2180263|- -            308 79364                -            946   5.7e-82  264.2   1.2   2   2   7.6e-82   7.6e-82  263.8   0.0    11   169   122   285   117   292 0.93 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/79364at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/79364at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/79364at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/79364at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/79364at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:04:02 2026
+# [ok]

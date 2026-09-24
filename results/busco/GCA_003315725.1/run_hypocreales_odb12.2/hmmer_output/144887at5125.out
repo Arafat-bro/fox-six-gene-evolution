@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+144887at5125_2060973_0:0022a4|CM010335.1:1528899-1536656|- -            639 144887               -            487  9.5e-298  975.5   3.3   1   2  4.6e-291  4.6e-291  953.4   0.3     2   463    34   500    33   515 0.97 <unknown description>
+144887at5125_2060973_0:0022a4|CM010335.1:1528899-1536656|- -            639 144887               -            487  9.5e-298  975.5   3.3   2   2   6.4e-09   6.4e-09   22.9   0.2   453   486   547   580   540   581 0.83 <unknown description>
+144887at5125_1089452_0:000213|CM010335.1:1528899-1530872|- -            641 144887               -            487  9.6e-298  975.5   3.3   1   2  4.7e-291  4.7e-291  953.4   0.3     2   463    36   502    35   517 0.97 <unknown description>
+144887at5125_1089452_0:000213|CM010335.1:1528899-1530872|- -            641 144887               -            487  9.6e-298  975.5   3.3   2   2   6.4e-09   6.4e-09   22.9   0.2   453   486   549   582   542   583 0.83 <unknown description>
+144887at5125_1081103_0:00056f|CM010335.1:1529355-1530758|- -            451 144887               -            487  3.8e-288  943.8   1.4   1   1  4.3e-288  4.3e-288  943.6   1.4     5   450     1   451     1   451 0.99 <unknown description>
+144887at5125_2604345_0:00057c|CM010335.1:1528899-1529957|- -            353 144887               -            487  7.1e-125  405.3   1.6   1   2    2e-117    2e-117  380.7   0.1   267   463    18   214    14   229 0.94 <unknown description>
+144887at5125_2604345_0:00057c|CM010335.1:1528899-1529957|- -            353 144887               -            487  7.1e-125  405.3   1.6   2   2   3.1e-09   3.1e-09   24.0   0.2   453   486   261   294   254   295 0.83 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/144887at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/144887at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/144887at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/144887at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/144887at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:02:19 2026
+# [ok]

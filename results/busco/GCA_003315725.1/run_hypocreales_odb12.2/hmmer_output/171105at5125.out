@@ -1,0 +1,24 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+171105at5125_426428_0:002cff|CM010339.1:3508645-3509806|-  -            388 171105               -            266     4e-84  271.2  42.6   1   3     8e-49     8e-49  155.5  37.2     2   165     3   208     1   220 0.76 <unknown description>
+171105at5125_426428_0:002cff|CM010339.1:3508645-3509806|-  -            388 171105               -            266     4e-84  271.2  42.6   2   3   3.8e-28   3.8e-28   87.7   0.2   165   243   236   319   227   323 0.78 <unknown description>
+171105at5125_426428_0:002cff|CM010339.1:3508645-3509806|-  -            388 171105               -            266     4e-84  271.2  42.6   3   3   1.2e-08   1.2e-08   23.8   0.0   241   265   350   374   338   375 0.87 <unknown description>
+171105at5125_61374_0:0019b9|CM010339.1:3508625-3509473|-   -            252 171105               -            266   2.1e-67  216.4  17.7   1   2   2.3e-41   2.3e-41  131.0  13.6    75   165     3    97     1   109 0.88 <unknown description>
+171105at5125_61374_0:0019b9|CM010339.1:3508625-3509473|-   -            252 171105               -            266   2.1e-67  216.4  17.7   2   2   4.4e-28   4.4e-28   87.5   0.1   165   239   125   204   116   210 0.78 <unknown description>
+171105at5125_1331945_0:001d70|CM010339.1:3508975-3509806|- -            278 171105               -            266     1e-66  214.1  42.3   1   2   3.1e-49   3.1e-49  156.8  37.2     2   165     3   208     1   220 0.76 <unknown description>
+171105at5125_1331945_0:001d70|CM010339.1:3508975-3509806|- -            278 171105               -            266     1e-66  214.1  42.3   2   2   7.4e-18   7.4e-18   53.9   0.2   165   207   236   278   227   278 0.82 <unknown description>
+171105at5125_63577_0:0027f7|CM010339.1:3509155-3509806|-   -            218 171105               -            266   8.1e-52  165.3  36.8   1   1   1.2e-49   1.2e-49  158.2  36.8     2   165     3   208     1   217 0.76 <unknown description>
+171105at5125_490622_0:0027dc|CM010339.1:3508645-3509065|-  -            141 171105               -            266   5.4e-35  110.1   0.0   1   2   1.6e-26   1.6e-26   82.3   0.1   177   243     1    72     1    76 0.82 <unknown description>
+171105at5125_490622_0:0027dc|CM010339.1:3508645-3509065|-  -            141 171105               -            266   5.4e-35  110.1   0.0   2   2   2.3e-09   2.3e-09   26.1   0.0   240   265   102   127    80   128 0.88 <unknown description>
+171105at5125_1344414_0:00240b|CM010339.1:3509302-3509806|- -            169 171105               -            266     6e-32  100.1  32.0   1   1     1e-29     1e-29   92.8  32.0     2   126     3   169     1   169 0.71 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/171105at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/171105at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/171105at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/171105at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/171105at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:02:55 2026
+# [ok]

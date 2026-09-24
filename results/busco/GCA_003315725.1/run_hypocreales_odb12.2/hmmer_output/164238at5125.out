@@ -1,0 +1,28 @@
+#                                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+164238at5125_1081107_0:000e33|CM010337.1:981072-996179|- -           2136 164238               -           1881         0 3538.3   0.0   1   3         0         0 3538.3   0.0     1  1832     1  1922     1  1931 0.94 <unknown description>
+164238at5125_1081107_0:000e33|CM010337.1:981072-996179|- -           2136 164238               -           1881         0 3538.3   0.0   2   3    0.0018    0.0018    4.0   0.4  1814  1865  1934  1985  1925  1991 0.87 <unknown description>
+164238at5125_1081107_0:000e33|CM010337.1:981072-996179|- -           2136 164238               -           1881         0 3538.3   0.0   3   3         7         7  -16.6  15.1  1796  1869  2044  2117  1999  2123 0.56 <unknown description>
+164238at5125_96318_0:0028e3|CM010337.1:990039-997328|-   -           2070 164238               -           1881         0 3492.8   0.0   1   2         0         0 3473.7   0.0    17  1832    56  1961    53  1968 0.94 <unknown description>
+164238at5125_96318_0:0028e3|CM010337.1:990039-997328|-   -           2070 164238               -           1881         0 3492.8   0.0   2   2   4.6e-05   4.6e-05    9.3   3.6  1803  1881  1978  2069  1964  2069 0.62 <unknown description>
+164238at5125_468837_0:002156|CM010337.1:990351-995921|-  -           1841 164238               -           1881         0 3328.3   0.0   1   1         0         0 3327.9   0.0    99  1832    40  1836    28  1840 0.95 <unknown description>
+164238at5125_86546_0:002639|CM010337.1:991598-996179|-   -           1528 164238               -           1881         0 2896.8   0.0   1   1         0         0 2894.1   0.0     1  1467     1  1528     1  1528 0.95 <unknown description>
+164238at5125_2614577_0:00066b|CM010337.1:990039-994586|- -           1499 164238               -           1881         0 2740.8   2.1   1   2         0         0 2728.0   0.0   477  1839     1  1398     1  1433 0.95 <unknown description>
+164238at5125_2614577_0:00066b|CM010337.1:990039-994586|- -           1499 164238               -           1881         0 2740.8   2.1   2   2   4.6e-05   4.6e-05    9.3   4.7  1802  1881  1407  1498  1395  1498 0.64 <unknown description>
+164238at5125_57161_0:0039b9|CM010337.1:990039-993257|-   -           1057 164238               -           1881         0 1851.3  11.5   1   3         0         0 1843.2   0.9   916  1832     1   948     1   955 0.96 <unknown description>
+164238at5125_57161_0:0039b9|CM010337.1:990039-993257|-   -           1057 164238               -           1881         0 1851.3  11.5   2   3   0.00087   0.00087    5.0   0.3  1814  1865   960  1011   951  1013 0.86 <unknown description>
+164238at5125_57161_0:0039b9|CM010337.1:990039-993257|-   -           1057 164238               -           1881         0 1851.3  11.5   3   3   4.2e-05   4.2e-05    9.4   0.2  1848  1881  1017  1056  1012  1056 0.77 <unknown description>
+164238at5125_42672_0:003575|CM010337.1:990039-992177|-   -            697 164238               -           1881         0 1034.3  17.7   1   3         0         0 1026.5   5.4  1275  1832     1   588     1   595 0.94 <unknown description>
+164238at5125_42672_0:003575|CM010337.1:990039-992177|-   -            697 164238               -           1881         0 1034.3  17.7   2   3   0.00068   0.00068    5.4   0.4  1814  1865   600   651   595   653 0.87 <unknown description>
+164238at5125_42672_0:003575|CM010337.1:990039-992177|-   -            697 164238               -           1881         0 1034.3  17.7   3   3   2.5e-05   2.5e-05   10.1   0.3  1847  1881   656   696   649   696 0.78 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/164238at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/164238at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/164238at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/164238at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/164238at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:02:54 2026
+# [ok]

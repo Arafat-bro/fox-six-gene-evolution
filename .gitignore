@@ -5,7 +5,13 @@ data/genomes/raw/ncbi_dataset/**/*.fna
 !data/references/raw/*.fasta
 !data/references/processed/*.fasta
 ncbi_dataset.zip
-logs/
+logs/*
+!logs/*.log
 results/six_homologs/haplotig_check/
 results/six_homologs/classified/exonerate_tmp/
 *.fai
+busco_*.log
+busco_downloads/
+results/busco/*/tmp/
+results/busco/*/logs/
+results/busco/*/run_*/miniprot_output/*.mpi

@@ -1,0 +1,16 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+221053at5125_431241_0:000420|CM010336.1:3890396-3891744|-  -            431 221053               -            375  3.4e-214  698.1   4.1   1   1  4.3e-214  4.3e-214  697.7   4.1     1   367     1   389     1   399 0.92 <unknown description>
+221053at5125_1089451_0:001d1f|CM010336.1:3890198-3891936|- -            561 221053               -            375  2.1e-213  695.5   5.1   1   2  2.1e-213  2.1e-213  695.5   5.1     1   367    65   453    65   465 0.92 <unknown description>
+221053at5125_1089451_0:001d1f|CM010336.1:3890198-3891936|- -            561 221053               -            375  2.1e-213  695.5   5.1   2   2      0.88      0.88   -4.3   7.7   266   342   461   538   452   560 0.64 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221053at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221053at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/hmmer_output/221053at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/221053at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_003315725.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/221053at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 13:03:35 2026
+# [ok]
