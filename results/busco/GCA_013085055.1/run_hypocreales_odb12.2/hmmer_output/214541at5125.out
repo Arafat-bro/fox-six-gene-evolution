@@ -1,0 +1,19 @@
+#                                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+214541at5125_1080343_0:002534|CP052038.1:931305-933175|+ -            609 214541               -            552         0 1032.0   4.9   1   2  7.6e-267  7.6e-267  874.1   1.1     4   450    15   467    12   475 0.97 <unknown description>
+214541at5125_1080343_0:002534|CP052038.1:931305-933175|+ -            609 214541               -            552         0 1032.0   4.9   2   2   2.2e-50   2.2e-50  159.6   0.1   445   551   493   605   482   606 0.91 <unknown description>
+214541at5125_2039875_0:001ab9|CP052038.1:931344-942497|+ -            552 214541               -            552  1.6e-280  919.3   2.3   1   2    8e-267    8e-267  874.1   1.2     5   450     3   454     1   462 0.97 <unknown description>
+214541at5125_2039875_0:001ab9|CP052038.1:931344-942497|+ -            552 214541               -            552  1.6e-280  919.3   2.3   2   2   1.8e-15   1.8e-15   44.4   0.0   445   487   480   526   469   539 0.84 <unknown description>
+214541at5125_2004952_0:000442|CP052038.1:931401-932674|+ -            410 214541               -            552  4.8e-248  812.1   6.0   1   1  5.4e-248  5.4e-248  811.9   6.0    22   425     1   410     1   410 0.98 <unknown description>
+214541at5125_2004951_0:00130a|CP052038.1:931308-932338|+ -            329 214541               -            552    6e-193  630.2   1.5   1   1  6.8e-193  6.8e-193  630.1   1.5     4   313    14   329    11   329 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/214541at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/214541at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/214541at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/214541at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/214541at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:34 2026
+# [ok]

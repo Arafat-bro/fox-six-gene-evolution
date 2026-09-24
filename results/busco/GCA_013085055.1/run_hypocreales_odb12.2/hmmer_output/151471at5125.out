@@ -1,0 +1,20 @@
+#                                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+151471at5125_660027_0:001b14|CP052041.1:62111-64961|+  -            880 151471               -            765         0 1364.7   4.9   1   1         0         0 1364.3   4.9     1   761    20   861    20   865 0.89 <unknown description>
+151471at5125_1399860_0:001707|CP052041.1:62111-64319|+ -            666 151471               -            765         0 1095.9   1.0   1   1         0         0 1095.6   1.0     1   587    20   666    20   666 0.90 <unknown description>
+151471at5125_655827_0:0011af|CP052041.1:62924-64961|+  -            680 151471               -            765  5.9e-281  922.7  18.3   1   1  7.7e-281  7.7e-281  922.4  18.3   176   761     1   661     1   665 0.86 <unknown description>
+151471at5125_2604345_0:001464|CP052041.1:62111-63454|+ -            377 151471               -            765  9.5e-227  743.5   0.0   1   1  1.2e-226  1.2e-226  743.2   0.0     1   341    20   366    20   373 0.98 <unknown description>
+151471at5125_327505_0:000ef5|CP052041.1:62111-63105|+  -            261 151471               -            765  4.4e-168  549.5   0.4   1   1  5.1e-168  5.1e-168  549.3   0.4     1   231    20   256    20   259 0.98 <unknown description>
+151471at5125_327505_0:000fe2|CP052041.1:63470-64961|+  -            454 151471               -            765  5.4e-135  440.1  40.8   1   2  4.2e-134  4.2e-134  437.1  36.3   366   696    24   404    19   409 0.81 <unknown description>
+151471at5125_327505_0:000fe2|CP052041.1:63470-64961|+  -            454 151471               -            765  5.4e-135  440.1  40.8   2   2    0.0011    0.0011    5.8   0.1   734   761   408   435   405   439 0.85 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/151471at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/151471at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/151471at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/151471at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/151471at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:52:23 2026
+# [ok]

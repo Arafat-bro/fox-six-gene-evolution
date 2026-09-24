@@ -1,0 +1,24 @@
+#                                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+204387at5125_660027_0:002d4a|CP052045.1:616469-617807|+  -            447 204387               -            378  2.9e-211  690.2   6.8   1   2   3.9e-81   3.9e-81  261.9   0.1     3   174     5   173     3   181 0.92 <unknown description>
+204387at5125_660027_0:002d4a|CP052045.1:616469-617807|+  -            447 204387               -            378  2.9e-211  690.2   6.8   2   2  2.3e-132  2.3e-132  430.5   2.8   131   378   194   445   177   445 0.88 <unknown description>
+204387at5125_94208_0:000dd1|CP052045.1:616074-617807|+   -            457 204387               -            378  3.5e-211  689.9   6.9   1   2   4.2e-81   4.2e-81  261.8   0.1     3   174    15   183    13   192 0.92 <unknown description>
+204387at5125_94208_0:000dd1|CP052045.1:616074-617807|+   -            457 204387               -            378  3.5e-211  689.9   6.9   2   2  2.5e-132  2.5e-132  430.4   2.8   131   378   204   455   187   455 0.88 <unknown description>
+204387at5125_468837_0:001708|CP052045.1:616928-617807|+  -            294 204387               -            378  4.4e-133  432.9   2.6   1   1  5.3e-133  5.3e-133  432.6   2.6   131   378    41   292    23   292 0.88 <unknown description>
+204387at5125_29856_0:003a03|CP052045.1:616475-617414|+   -            314 204387               -            378  4.1e-131  426.4   3.1   1   2   1.5e-81   1.5e-81  263.2   0.1     3   174     3   171     1   183 0.91 <unknown description>
+204387at5125_29856_0:003a03|CP052045.1:616475-617414|+   -            314 204387               -            378  4.1e-131  426.4   3.1   2   2     2e-51     2e-51  164.1   0.5   131   252   192   314   176   314 0.80 <unknown description>
+204387at5125_595255_0:001502|CP052045.1:616472-617051|+  -            194 204387               -            378   3.1e-82  265.5   0.3   1   1   3.7e-82   3.7e-82  265.2   0.3     3   175     4   173     2   183 0.91 <unknown description>
+204387at5125_2030778_0:0001ad|CP052045.1:617318-617615|+ -            100 204387               -            378   9.4e-66  211.3   4.0   1   1     1e-65     1e-65  211.1   4.0   220   317     1   100     1   100 0.98 <unknown description>
+204387at5125_29856_0:000535|CP052045.1:617528-617807|+   -             94 204387               -            378     6e-49  155.9   3.3   1   1   6.6e-49   6.6e-49  155.8   3.3   290   378     1    92     1    92 0.95 <unknown description>
+204387at5125_169388_0:002d34|CP052045.1:617240-617372|+  -             45 204387               -            378   8.5e-26   79.7   0.6   1   1   8.8e-26   8.8e-26   79.7   0.6   196   238     3    45     1    45 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/204387at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/204387at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/204387at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/204387at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/204387at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:13 2026
+# [ok]

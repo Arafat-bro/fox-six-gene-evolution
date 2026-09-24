@@ -1,0 +1,20 @@
+#                                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+63103at5125_660027_0:00334b|CP052046.1:2128034-2130285|+  -            700 63103                -            663         0 1339.4   0.0   1   1         0         0 1339.1   0.0     3   663    21   690    19   690 0.98 <unknown description>
+63103at5125_2714763_0:001fb5|CP052046.1:2128100-2129842|+ -            549 63103                -            663         0 1077.7   0.0   1   1         0         0 1077.6   0.0     5   544     1   549     1   549 0.98 <unknown description>
+63103at5125_1736662_0:001f3c|CP052046.1:2128669-2130285|+ -            539 63103                -            663         0 1037.5   0.1   1   1         0         0 1035.3   0.1   157   663     1   529     1   529 0.98 <unknown description>
+63103at5125_911162_0:001322|CP052046.1:2129146-2130285|+  -            362 63103                -            663  1.4e-231  759.2   0.0   1   1  1.6e-231  1.6e-231  759.1   0.0   313   663     1   352     1   352 1.00 <unknown description>
+63103at5125_1399860_0:000776|CP052046.1:2128100-2129152|+ -            319 63103                -            663  9.8e-173  564.8   0.0   1   1  1.1e-172  1.1e-172  564.6   0.0     5   315     1   319     1   319 0.96 <unknown description>
+63103at5125_468837_0:002be9|CP052046.1:2129812-2130285|+  -            140 63103                -            663     1e-82  267.4   0.2   1   1   1.1e-82   1.1e-82  267.2   0.2   534   663     1   130     1   130 1.00 <unknown description>
+63103at5125_93591_0:000ef3|CP052046.1:2129950-2130285|+   -             94 63103                -            663   2.2e-49  157.2   0.2   1   1   2.4e-49   2.4e-49  157.1   0.2   580   663     1    84     1    84 0.99 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/63103at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/63103at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/63103at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/63103at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/63103at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:53 2026
+# [ok]

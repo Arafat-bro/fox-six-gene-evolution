@@ -1,0 +1,28 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+205056at5125_100902_0:0041c4|CP052046.1:1198869-1200376|-  -            472 205056               -            316    3e-162  528.4   2.8   1   2         9         9   -5.8   4.5    36    64    85   113    72   125 0.60 <unknown description>
+205056at5125_100902_0:0041c4|CP052046.1:1198869-1200376|-  -            472 205056               -            316    3e-162  528.4   2.8   2   2    3e-162    3e-162  528.4   2.8     5   316   132   467   127   467 0.92 <unknown description>
+205056at5125_268505_0:00063e|CP052046.1:1198875-1206382|-  -            519 205056               -            316    4e-162  528.0   2.8   1   2         9         9   -5.6   4.1    36    64   134   162   121   173 0.59 <unknown description>
+205056at5125_268505_0:00063e|CP052046.1:1198875-1206382|-  -            519 205056               -            316    4e-162  528.0   2.8   2   2    4e-162    4e-162  528.0   2.8     5   316   181   516   176   516 0.92 <unknown description>
+205056at5125_1081102_0:002326|CP052046.1:1198875-1217408|- -            659 205056               -            316  7.7e-162  527.1   2.8   1   2         9         9   -6.6   4.5    36    64   274   302   262   312 0.60 <unknown description>
+205056at5125_1081102_0:002326|CP052046.1:1198875-1217408|- -            659 205056               -            316  7.7e-162  527.1   2.8   2   2  7.7e-162  7.7e-162  527.1   2.8     5   316   321   656   316   656 0.92 <unknown description>
+205056at5125_307937_0:003809|CP052046.1:1198875-1201765|-  -            676 205056               -            316  8.2e-162  527.0   2.8   1   2         9         9   -6.6   4.5    36    64   291   319   279   329 0.60 <unknown description>
+205056at5125_307937_0:003809|CP052046.1:1198875-1201765|-  -            676 205056               -            316  8.2e-162  527.0   2.8   2   2  8.2e-162  8.2e-162  527.0   2.8     5   316   338   673   333   673 0.92 <unknown description>
+205056at5125_29856_0:000a79|CP052046.1:1198872-1199974|-   -            337 205056               -            316  1.6e-161  526.0   2.2   1   1  1.9e-161  1.9e-161  525.8   2.2     8   316     1   333     1   333 0.92 <unknown description>
+205056at5125_595255_0:001e47|CP052046.1:1198875-1199698|-  -            244 205056               -            316  9.7e-114  369.1   0.3   1   1  1.1e-113  1.1e-113  368.9   0.3    92   316     1   241     1   241 0.92 <unknown description>
+205056at5125_1325733_0:00196f|CP052046.1:1199373-1200376|- -            319 205056               -            316   1.7e-89  289.4   3.4   1   2       1.7       1.7   -3.0   2.9    36    64    85   113    72   132 0.51 <unknown description>
+205056at5125_1325733_0:00196f|CP052046.1:1199373-1200376|- -            319 205056               -            316   1.7e-89  289.4   3.4   2   2   1.7e-89   1.7e-89  289.4   3.4     5   175   132   317   127   319 0.91 <unknown description>
+205056at5125_45235_0:00106f|CP052046.1:1199370-1200031|-   -            221 205056               -            316     1e-84  273.7  11.3   1   2   4.4e-60   4.4e-60  192.8   4.4     5   118    17   138    13   148 0.89 <unknown description>
+205056at5125_45235_0:00106f|CP052046.1:1199370-1200031|-   -            221 205056               -            316     1e-84  273.7  11.3   2   2   1.9e-27   1.9e-27   85.5   0.6   113   175   152   218   142   220 0.91 <unknown description>
+205056at5125_93591_0:00299f|CP052046.1:1198875-1199079|-   -             69 205056               -            316   2.2e-34  108.4   0.0   1   1   2.4e-34   2.4e-34  108.2   0.0   255   316     1    66     1    66 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/205056at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/205056at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/205056at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/205056at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/205056at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:17 2026
+# [ok]

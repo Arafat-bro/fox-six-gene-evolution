@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+224557at5125_1080343_0:001744|CP052039.1:3397601-3398990|- -            464 224557               -            396  2.3e-167  545.8  27.3   1   1  1.2e-166  1.2e-166  543.4  27.3     1   391     1   431     1   436 0.85 <unknown description>
+224557at5125_1081107_0:000424|CP052039.1:3397868-3399328|- -            388 224557               -            396    1e-164  537.1  23.5   1   1  1.2e-164  1.2e-164  536.8  23.5     1   344    14   370    14   378 0.89 <unknown description>
+224557at5125_1081109_0:00199b|CP052039.1:3397943-3398990|- -            350 224557               -            396  4.1e-164  535.1  22.6   1   1  4.6e-164  4.6e-164  535.0  22.6     1   333     1   348     1   350 0.91 <unknown description>
+224557at5125_1237068_0:0007b4|CP052039.1:3398234-3398990|- -            253 224557               -            396  1.6e-122  398.2  33.4   1   1  1.8e-122  1.8e-122  398.0  33.4     1   244     1   252     1   253 0.92 <unknown description>
+224557at5125_111463_0:0006e0|CP052039.1:3397610-3398636|-  -            343 224557               -            396    3e-109  354.5  11.4   1   1    2e-108    2e-108  351.8  11.4   117   391     1   313     1   318 0.81 <unknown description>
+224557at5125_1245745_0:001d6d|CP052039.1:3397946-3398465|- -            174 224557               -            396   6.4e-93  300.7   2.7   1   1   7.1e-93   7.1e-93  300.6   2.7   168   333     1   173     1   174 0.94 <unknown description>
+224557at5125_2502994_0:001901|CP052039.1:3397601-3398312|- -            238 224557               -            396   1.1e-58  188.0   0.7   1   1     1e-57     1e-57  184.8   0.7   219   391     1   205     1   210 0.78 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/224557at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/224557at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/224557at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/224557at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/224557at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:51 2026
+# [ok]

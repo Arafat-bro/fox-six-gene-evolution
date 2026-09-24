@@ -1,0 +1,25 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+217223at5125_660027_0:0030c2|CP052046.1:1410819-1412142|-  -            442 217223               -            378  4.5e-214  698.8  23.4   1   3   2.5e-52   2.5e-52  166.4   1.0     2    98     6   102     5   111 0.95 <unknown description>
+217223at5125_660027_0:0030c2|CP052046.1:1410819-1412142|-  -            442 217223               -            378  4.5e-214  698.8  23.4   2   3  1.1e-136  1.1e-136  444.1  12.1    88   338   114   374   104   378 0.90 <unknown description>
+217223at5125_660027_0:0030c2|CP052046.1:1410819-1412142|-  -            442 217223               -            378  4.5e-214  698.8  23.4   3   3   8.8e-31   8.8e-31   95.5   0.1   319   377   378   436   374   437 0.95 <unknown description>
+217223at5125_5516_0:002c98|CP052046.1:1410819-1414032|-    -            933 217223               -            378  1.6e-212  693.6  23.4   1   3   7.6e-52   7.6e-52  164.9   1.0     2    98   497   593   496   602 0.95 <unknown description>
+217223at5125_5516_0:002c98|CP052046.1:1410819-1414032|-    -            933 217223               -            378  1.6e-212  693.6  23.4   2   3  6.4e-136  6.4e-136  441.6  12.1    88   338   605   865   596   869 0.90 <unknown description>
+217223at5125_5516_0:002c98|CP052046.1:1410819-1414032|-    -            933 217223               -            378  1.6e-212  693.6  23.4   3   3   2.3e-30   2.3e-30   94.1   0.1   319   377   869   927   865   928 0.95 <unknown description>
+217223at5125_595255_0:001173|CP052046.1:1410825-1411827|-  -            335 217223               -            378  1.1e-165  539.5  15.5   1   2  5.7e-137  5.7e-137  445.0  12.2    89   338    10   269     2   273 0.90 <unknown description>
+217223at5125_595255_0:001173|CP052046.1:1410825-1411827|-  -            335 217223               -            378  1.1e-165  539.5  15.5   2   2   3.7e-31   3.7e-31   96.8   0.1   319   377   273   331   256   332 0.89 <unknown description>
+217223at5125_1736662_0:00201d|CP052046.1:1411701-1412145|- -            149 217223               -            378   7.1e-62  197.9   6.3   1   2   2.3e-53   2.3e-53  169.9   1.0     2    98     7   103     6   111 0.95 <unknown description>
+217223at5125_1736662_0:00201d|CP052046.1:1411701-1412145|- -            149 217223               -            378   7.1e-62  197.9   6.3   2   2   2.6e-11   2.6e-11   31.5   0.4    87   120   114   149   105   149 0.73 <unknown description>
+217223at5125_1736662_0:001478|CP052046.1:1410825-1411224|- -            134 217223               -            378   1.3e-58  187.1   1.8   1   2   1.2e-28   1.2e-28   88.5   0.3   271   338     1    68     1    72 0.94 <unknown description>
+217223at5125_1736662_0:001478|CP052046.1:1410825-1411224|- -            134 217223               -            378   1.3e-58  187.1   1.8   2   2   5.7e-32   5.7e-32   99.4   0.1   319   377    72   130    55   131 0.89 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/217223at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/217223at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/217223at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/217223at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/217223at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:31 2026
+# [ok]

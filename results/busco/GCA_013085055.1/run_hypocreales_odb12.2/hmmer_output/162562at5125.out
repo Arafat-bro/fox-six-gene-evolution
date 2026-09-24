@@ -1,0 +1,27 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+162562at5125_1195189_0:0015ab|CP052039.1:3782931-3790481|+ -           1712 162562               -            649  5.2e-269  884.4  16.4   1   1  1.3e-267  1.3e-267  879.8  16.4     3   649  1023  1711  1021  1711 0.88 <unknown description>
+162562at5125_1245745_0:001c8d|CP052039.1:3784687-3790478|+ -           1335 162562               -            649  1.2e-267  879.8  17.1   1   2       3.9       3.9   -4.0   8.6   206   362    16   164     5   201 0.49 <unknown description>
+162562at5125_1245745_0:001c8d|CP052039.1:3784687-3790478|+ -           1335 162562               -            649  1.2e-267  879.8  17.1   2   2  1.2e-267  1.2e-267  879.8  17.1     3   649   647  1335   645  1335 0.88 <unknown description>
+162562at5125_660027_0:0008a9|CP052039.1:3788241-3790481|+  -            697 162562               -            649  4.5e-262  861.5  18.3   1   1  4.5e-260  4.5e-260  854.8  18.3    10   649     1   696     1   696 0.88 <unknown description>
+162562at5125_45235_0:001a77|CP052039.1:3789006-3790481|+   -            476 162562               -            649  4.1e-180  590.6   7.8   1   1  1.5e-178  1.5e-178  585.4   7.8   201   649     1   475     1   475 0.87 <unknown description>
+162562at5125_63577_0:00058c|CP052039.1:3789660-3790481|+   -            258 162562               -            649  1.4e-150  493.1   2.7   1   1  1.6e-150  1.6e-150  492.9   2.7   394   649     2   257     1   257 0.99 <unknown description>
+162562at5125_911162_0:000a49|CP052039.1:3789825-3790481|+  -            203 162562               -            649  6.7e-121  395.0   1.7   1   1  7.4e-121  7.4e-121  394.9   1.7   448   649     1   202     1   202 1.00 <unknown description>
+162562at5125_63577_0:000137|CP052039.1:3788118-3789384|+   -            375 162562               -            649  2.4e-100  327.1  17.6   1   1   1.2e-99   1.2e-99  324.9  17.6     3   300    35   350    33   372 0.83 <unknown description>
+162562at5125_62069_0:000444|CP052039.1:3788235-3789084|+   -            236 162562               -            649   1.5e-90  294.8  15.7   1   1   9.9e-90   9.9e-90  292.0  15.7     9   222     2   231     1   235 0.91 <unknown description>
+162562at5125_2714763_0:001b0f|CP052039.1:3788392-3789573|+ -            378 162562               -            649   3.3e-90  293.6  18.3   1   1   2.5e-89   2.5e-89  290.7  18.3    33   355     6   351     4   375 0.79 <unknown description>
+162562at5125_93591_0:002713|CP052039.1:3788241-3788749|+   -            139 162562               -            649   3.9e-74  240.5   7.2   1   1   4.2e-74   4.2e-74  240.4   7.2    10   146     1   138     1   139 0.99 <unknown description>
+162562at5125_92637_0:002c36|CP052039.1:3788136-3788875|+   -            247 162562               -            649     9e-74  239.3  14.9   1   2   3.5e-11   3.5e-11   32.5   0.2     3    40    29    67    27    92 0.80 <unknown description>
+162562at5125_92637_0:002c36|CP052039.1:3788136-3788875|+   -            247 162562               -            649     9e-74  239.3  14.9   2   2   6.3e-65   6.3e-65  210.1  10.5    32   174    90   231    66   247 0.88 <unknown description>
+162562at5125_45235_0:000b99|CP052039.1:3788479-3788872|+   -            132 162562               -            649   4.2e-51  164.4   9.1   1   1   4.3e-51   4.3e-51  164.4   9.1    57   174     1   117     1   132 0.92 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/162562at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/162562at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/162562at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/162562at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/162562at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:52:38 2026
+# [ok]

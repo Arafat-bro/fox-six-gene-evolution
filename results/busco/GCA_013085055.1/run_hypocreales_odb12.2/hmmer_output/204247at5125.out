@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+204247at5125_100902_0:004b5c|CP052038.1:5441559-5442886|+  -            427 204247               -            390  1.1e-196  641.5   9.0   1   1    2e-195    2e-195  637.4   9.0     2   390     3   426     2   426 0.90 <unknown description>
+204247at5125_2364996_0:0006a7|CP052038.1:5441559-5446595|+ -           1440 204247               -            390  2.1e-193  630.7   8.2   1   4  2.1e-193  2.1e-193  630.7   8.2     2   388     3   424     2   426 0.90 <unknown description>
+204247at5125_2364996_0:0006a7|CP052038.1:5441559-5446595|+ -           1440 204247               -            390  2.1e-193  630.7   8.2   2   4         4         4   -6.4  11.7    37   118   911   993   892  1006 0.64 <unknown description>
+204247at5125_2364996_0:0006a7|CP052038.1:5441559-5446595|+ -           1440 204247               -            390  2.1e-193  630.7   8.2   3   4         4         4   -6.3   7.8    61   120  1151  1211  1133  1253 0.67 <unknown description>
+204247at5125_2364996_0:0006a7|CP052038.1:5441559-5446595|+ -           1440 204247               -            390  2.1e-193  630.7   8.2   4   4         4         4   -8.2  13.3    59   167  1306  1416  1280  1430 0.69 <unknown description>
+204247at5125_660122_0:000138|CP052038.1:5441976-5442886|+  -            288 204247               -            390  1.1e-137  447.2   2.9   1   1  2.8e-136  2.8e-136  442.6   2.9   132   390     1   287     1   287 0.93 <unknown description>
+204247at5125_468837_0:001434|CP052038.1:5442213-5442886|+  -            209 204247               -            390  6.1e-119  385.6   0.1   1   1    7e-119    7e-119  385.4   0.1   190   390     6   208     2   208 0.96 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/204247at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/204247at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/204247at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/204247at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/204247at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:12 2026
+# [ok]

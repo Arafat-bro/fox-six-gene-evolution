@@ -1,0 +1,20 @@
+#                                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+83007at5125_72712_0:0010f1|CP052040.1:4316047-4318270|-   -            646 83007                -            525         0 1106.0  14.0   1   2         0         0 1106.0  14.0     4   516    37   554    34   563 0.98 <unknown description>
+83007at5125_72712_0:0010f1|CP052040.1:4316047-4318270|-   -            646 83007                -            525         0 1106.0  14.0   2   2     0.077     0.077   -0.2   0.0   507   524   570   587   549   588 0.73 <unknown description>
+83007at5125_1247861_0:00192a|CP052040.1:4316522-4318270|- -            551 83007                -            525         0 1105.0  13.3   1   1         0         0 1104.8  13.3     4   511    37   549    34   551 0.98 <unknown description>
+83007at5125_911162_0:00018e|CP052040.1:4317162-4318144|-  -            312 83007                -            525  2.1e-207  678.2   9.5   1   1  2.4e-207  2.4e-207  678.0   9.5    11   319     2   311     1   312 0.99 <unknown description>
+83007at5125_2692428_0:0026a2|CP052040.1:4316681-4317639|- -            304 83007                -            525  2.5e-205  671.3  11.0   1   1  2.8e-205  2.8e-205  671.2  11.0   162   464     1   304     1   304 1.00 <unknown description>
+83007at5125_468837_0:001e91|CP052040.1:4316306-4317438|-  -            345 83007                -            525  2.2e-184  602.2   4.7   1   2  2.2e-184  2.2e-184  602.2   4.7   229   516     1   293     1   302 0.96 <unknown description>
+83007at5125_468837_0:001e91|CP052040.1:4316306-4317438|-  -            345 83007                -            525  2.2e-184  602.2   4.7   2   2     0.058     0.058    0.2   0.0   508   524   310   326   296   327 0.84 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/83007at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/83007at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/83007at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/83007at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/83007at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:54:02 2026
+# [ok]

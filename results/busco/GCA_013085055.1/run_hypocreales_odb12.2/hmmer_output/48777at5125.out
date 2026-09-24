@@ -1,0 +1,20 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+48777at5125_1080343_0:002e19|CP052043.1:847718-849274|- -            490 48777                -            374  8.6e-152  493.3  14.2   1   2  2.2e-140  2.2e-140  455.7   2.4     1   318     1   367     1   372 0.85 <unknown description>
+48777at5125_1080343_0:002e19|CP052043.1:847718-849274|- -            490 48777                -            374  8.6e-152  493.3  14.2   2   2   2.5e-14   2.5e-14   40.9   4.3   318   373   407   476   402   477 0.82 <unknown description>
+48777at5125_655827_0:00203b|CP052043.1:848123-849274|-  -            355 48777                -            374  2.6e-139  452.2   3.8   1   1    4e-139    4e-139  451.6   3.8     1   304     1   353     1   354 0.86 <unknown description>
+48777at5125_858221_0:001c7e|CP052043.1:847736-848813|-  -            360 48777                -            374  5.2e-104  336.0  10.0   1   2   1.3e-91   1.3e-91  295.3   0.2   108   318     6   243     2   249 0.86 <unknown description>
+48777at5125_858221_0:001c7e|CP052043.1:847736-848813|-  -            360 48777                -            374  5.2e-104  336.0  10.0   2   2   1.8e-14   1.8e-14   41.3   4.4   318   373   283   352   279   353 0.81 <unknown description>
+48777at5125_983964_0:0001ef|CP052043.1:847736-848543|-  -            270 48777                -            374   3.3e-86  277.5  12.0   1   2   4.4e-74   4.4e-74  237.5   0.9   169   318     3   153     1   160 0.94 <unknown description>
+48777at5125_983964_0:0001ef|CP052043.1:847736-848543|-  -            270 48777                -            374   3.3e-86  277.5  12.0   2   2   1.1e-14   1.1e-14   42.1   4.4   318   373   193   262   189   263 0.81 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/48777at5125.hmm
+# Target file:     /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/48777at5125.faa
+# Option settings: hmmsearch --domtblout /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/hmmer_output/48777at5125.out --cpu 1 /home/arafat/busco_downloads/lineages/hypocreales_odb12.2/hmms/48777at5125.hmm /home/arafat/Foxy_SIX_Evolution/results/busco/GCA_013085055.1/run_hypocreales_odb12.2/miniprot_output/translated_proteins/48777at5125.faa 
+# Current dir:     /home/arafat/Foxy_SIX_Evolution
+# Date:            Thu Sep 24 15:53:37 2026
+# [ok]
