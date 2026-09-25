@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir -p results/core/aln results/core/trim
-for f in results/core/og/*.faa; do
+mkdir -p results/core_genome/aln results/core/trim
+for f in results/core_genome/og/*.faa; do
   og=$(basename $f .faa)
   [ -s results/core_genome/trim/$og.faa ] && continue
   mafft --auto --thread 8 $f > results/core_genome/aln/$og.faa 2>/dev/null
