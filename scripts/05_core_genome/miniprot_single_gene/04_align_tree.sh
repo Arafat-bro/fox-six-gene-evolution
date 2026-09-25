@@ -2,9 +2,9 @@
 mkdir -p results/core/aln results/core/trim
 for f in results/core/og/*.faa; do
   og=$(basename $f .faa)
-  [ -s results/core/trim/$og.faa ] && continue
-  mafft --auto --thread 8 $f > results/core/aln/$og.faa 2>/dev/null
-  trimal -in results/core/aln/$og.faa -out results/core/trim/$og.faa -automated1
+  [ -s results/core_genome/trim/$og.faa ] && continue
+  mafft --auto --thread 8 $f > results/core_genome/aln/$og.faa 2>/dev/null
+  trimal -in results/core_genome/aln/$og.faa -out results/core_genome/trim/$og.faa -automated1
 done
 
 python - <<'EOF'
@@ -26,4 +26,4 @@ print("concatenated length:", len("".join(seqs[genomes[0]])))
 EOF
 
 which iqtree3 iqtree
-iqtree3 -s results/core/concat.faa -m MFP -B 1000 -T 8 -mem 6G --prefix results/core/core_tree
+iqtree3 -s results/core_genome/concat.faa -m MFP -B 1000 -T 8 -mem 6G --prefix results/core_genome/core_tree
