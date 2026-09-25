@@ -31,7 +31,7 @@ for row in ["race3", "cepae", "lini_block1"]:
         s_left, s_right = (se, ss) if reverse else (ss, se)
         alpha = min(0.15 + (pident - 75) / 100, 0.85)
         color = "#4477aa" if not reverse else "#cc6677"  # blue = same strand, red-gray = inverted vs Fol4287
-        verts = [(qs, y_bot + 0.15), (qe, y_bot + 0.15), (s_right, y_top - 0.15), (s_left, y_top - 0.15), (qs, y_bot + 0.15)]
+        verts = [(qs, y_bot + 0.20), (qe, y_bot + 0.20), (s_right, y_top - 0.15), (s_left, y_top - 0.15), (qs, y_bot + 0.20)]
         ax.add_patch(mpatches.Polygon(verts, closed=True, facecolor=color, alpha=alpha, edgecolor="none"))
 
 for name, glist in genes.items():
@@ -41,7 +41,7 @@ for name, glist in genes.items():
         x0, x1 = (start, end) if strand == "+" else (end, start)
         ax.annotate("", xy=(x1, y), xytext=(x0, y),
                     arrowprops=dict(arrowstyle="-|>", color=colors[gname], lw=7, mutation_scale=22))
-        offset = 0.35 if name == "Fol4287" else -0.35
+        offset = 0.5 if name == "Fol4287" else -0.2
         va = "bottom" if name == "Fol4287" else "top"
         ax.text((start+end)/2, y + offset, gname, ha="center", va=va, fontsize=9, weight="bold")
     ax.text(-600, y, name, ha="right", va="center", fontsize=11, weight="bold")
