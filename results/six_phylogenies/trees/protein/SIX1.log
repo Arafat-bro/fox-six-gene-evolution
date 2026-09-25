@@ -1,0 +1,243 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Dell (AVX512, FMA3, 5 GB RAM)
+Command: iqtree2 -s results/six_phylogenies/alignments/protein/SIX1.aln.fasta -m MFP -B 1000 -T AUTO --seed 12345 --prefix results/six_phylogenies/trees/protein/SIX1
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 24 21:29:48 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file results/six_phylogenies/alignments/protein/SIX1.aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 19 sequences with 284 columns, 171 distinct patterns
+123 parsimony-informative, 23 singleton sites, 138 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  SIX1_GCA_003315725.1_copy2    1.41%    passed     99.23%
+   2  SIX1_GCA_003977725.1_copy2    1.41%    passed     98.74%
+   3  SIX1_GCA_013423245.1_copy1    3.87%    passed     99.95%
+   4  SIX1_GCA_014857105.1_copy1    3.17%    passed     97.27%
+   5  SIX1_GCA_016164145.2_copy2    3.17%    passed     99.36%
+   6  SIX1_GCA_016164145.2_copy3    3.17%    passed     99.36%
+   7  SIX1_GCA_016166325.2_copy1    3.17%    passed     99.95%
+   8  SIX1_GCA_016166325.2_copy2    2.82%    passed    100.00%
+   9  SIX1_GCA_016166325.2_copy3    3.17%    passed     99.69%
+  10  SIX1_GCA_030345115.2_copy1    4.23%    passed     99.78%
+  11  SIX1_GCA_031834405.1_copy1    5.99%    passed     99.72%
+  12  SIX1_GCA_031834405.1_copy2    3.52%    passed     99.99%
+  13  SIX1_GCA_031834405.1_copy3    3.87%    passed    100.00%
+  14  SIX1_GCA_032206225.1_copy1    3.87%    passed     99.99%
+  15  SIX1_GCA_053754955.2_copy2    3.87%    passed    100.00%
+  16  SIX1_GCA_053754965.2_copy1    5.99%    passed     99.72%
+  17  SIX1_GCA_053754965.2_copy2    3.52%    passed     99.99%
+  18  SIX1_GCA_053754965.2_copy3    3.87%    passed    100.00%
+  19  SIX1_GCA_054130785.1_copy2    2.82%    passed     99.96%
+****  TOTAL                         3.52%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: SIX1_GCA_016164145.2_copy3 is identical to SIX1_GCA_016164145.2_copy2 but kept for subsequent analysis
+NOTE: SIX1_GCA_053754965.2_copy1 is identical to SIX1_GCA_031834405.1_copy1 but kept for subsequent analysis
+NOTE: SIX1_GCA_053754965.2_copy2 is identical to SIX1_GCA_031834405.1_copy2 but kept for subsequent analysis
+NOTE: SIX1_GCA_053754965.2_copy3 is identical to SIX1_GCA_031834405.1_copy3 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+55 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -4641
+Threads: 2 / Time: 5.046 sec / Speedup: 1.588 / Efficiency: 79% / LogL: -4641
+Threads: 3 / Time: 4.424 sec / Speedup: 1.811 / Efficiency: 60% / LogL: -4641
+Threads: 4 / Time: 4.498 sec / Speedup: 1.781 / Efficiency: 45% / LogL: -4641
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3097.714
+Optimal log-likelihood: -3097.682
+Proportion of invariable sites: 0.247
+Gamma shape alpha: 0.834
+Parameters optimization took 1 rounds (0.028 sec)
+Time for fast ML tree search: 0.260 seconds
+
+NOTE: ModelFinder requires 6 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 284) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            3231.764     35  6533.527     6543.688     6661.241
+  2  LG+I          3128.106     36  6328.212     6338.998     6459.575
+  3  LG+G4         3099.945     36  6271.891     6282.676     6403.254
+  4  LG+I+G4       3097.677     37  6269.353     6280.784     6404.365
+  5  LG+R2         3107.772     37  6289.543     6300.974     6424.555
+  6  LG+R3         3096.703     39  6271.407     6284.193     6413.717
+  7  LG+R4         3096.404     41  6274.808     6289.039     6424.415
+ 16  LG+F+G4       3071.927     55  6253.853     6280.871     6454.547
+ 17  LG+F+I+G4     3069.756     56  6251.513     6279.636     6455.855
+ 29  WAG+G4        3071.075     36  6214.150     6224.935     6345.513
+ 30  WAG+I+G4      3069.496     37  6212.992     6224.423     6348.005
+ 42  WAG+F+G4      3045.734     55  6201.469     6228.486     6402.162
+ 43  WAG+F+I+G4    3044.333     56  6200.666     6228.789     6405.009
+ 55  JTT+G4        3067.519     36  6207.038     6217.824     6338.401
+ 56  JTT+I+G4      3065.925     37  6205.849     6217.280     6340.861
+ 68  JTT+F+G4      3052.844     55  6215.688     6242.706     6416.382
+ 69  JTT+F+I+G4    3051.376     56  6214.752     6242.875     6419.095
+ 81  JTTDCMut+G4   3066.104     36  6204.208     6214.994     6335.572
+ 82  JTTDCMut+I+G4 3064.540     37  6203.081     6214.512     6338.093
+ 94  JTTDCMut+F+G4 3051.021     55  6212.042     6239.060     6412.736
+ 95  JTTDCMut+F+I+G4 3049.574     56  6211.149     6239.272     6415.492
+107  DCMut+G4      3107.685     36  6287.370     6298.156     6418.733
+108  DCMut+I+G4    3105.578     37  6285.156     6296.587     6420.168
+120  DCMut+F+G4    3076.557     55  6263.114     6290.131     6463.807
+121  DCMut+F+I+G4  3074.677     56  6261.354     6289.477     6465.697
+133  VT+G4         3086.113     36  6244.225     6255.011     6375.588
+134  VT+I+G4       3084.533     37  6243.066     6254.497     6378.078
+146  VT+F+G4       3063.253     55  6236.506     6263.523     6437.199
+147  VT+F+I+G4     3061.814     56  6235.628     6263.751     6439.970
+159  PMB+G4        3100.911     36  6273.822     6284.608     6405.185
+160  PMB+I+G4      3099.230     37  6272.460     6283.891     6407.472
+172  PMB+F+G4      3077.782     55  6265.564     6292.582     6466.258
+173  PMB+F+I+G4    3076.231     56  6264.462     6292.585     6468.804
+185  Blosum62+G4   3118.694     36  6309.388     6320.174     6440.751
+186  Blosum62+I+G4 3116.883     37  6307.765     6319.196     6442.777
+198  Blosum62+F+G4 3089.900     55  6289.800     6316.818     6490.494
+199  Blosum62+F+I+G4 3088.253     56  6288.506     6316.629     6492.849
+211  Dayhoff+G4    3107.697     36  6287.394     6298.179     6418.757
+212  Dayhoff+I+G4  3105.587     37  6285.174     6296.605     6420.186
+224  Dayhoff+F+G4  3076.596     55  6263.192     6290.210     6463.886
+225  Dayhoff+F+I+G4 3074.717     56  6261.434     6289.558     6465.777
+237  mtREV+G4      3253.413     36  6578.825     6589.611     6710.188
+238  mtREV+I+G4    3251.836     37  6577.673     6589.104     6712.685
+250  mtREV+F+G4    3102.358     55  6314.717     6341.734     6515.410
+251  mtREV+F+I+G4  3099.664     56  6311.327     6339.451     6515.670
+263  mtART+G4      3345.373     36  6762.745     6773.531     6894.108
+264  mtART+I+G4    3343.158     37  6760.317     6771.748     6895.329
+276  mtART+F+G4    3196.763     55  6503.527     6530.544     6704.220
+277  mtART+F+I+G4  3194.853     56  6501.705     6529.828     6706.048
+289  mtZOA+G4      3258.910     36  6589.821     6600.606     6721.184
+290  mtZOA+I+G4    3257.166     37  6588.332     6599.763     6723.344
+302  mtZOA+F+G4    3141.502     55  6393.005     6420.022     6593.698
+303  mtZOA+F+I+G4  3138.652     56  6389.304     6417.428     6593.647
+315  mtMet+G4      3261.872     36  6595.744     6606.529     6727.107
+316  mtMet+I+G4    3260.022     37  6594.044     6605.475     6729.056
+328  mtMet+F+G4    3105.179     55  6320.358     6347.376     6521.052
+329  mtMet+F+I+G4  3102.294     56  6316.588     6344.711     6520.930
+341  mtVer+G4      3265.895     36  6603.789     6614.574     6735.152
+342  mtVer+I+G4    3264.925     37  6603.850     6615.281     6738.862
+354  mtVer+F+G4    3116.309     55  6342.619     6369.636     6543.312
+355  mtVer+F+I+G4  3113.781     56  6339.561     6367.684     6543.904
+367  mtInv+G4      3297.309     36  6666.618     6677.403     6797.981
+368  mtInv+I+G4    3294.780     37  6663.559     6674.990     6798.571
+380  mtInv+F+G4    3100.276     55  6310.553     6337.570     6511.246
+381  mtInv+F+I+G4  3097.539     56  6307.079     6335.202     6511.421
+393  mtMAM+G4      3295.304     36  6662.608     6673.393     6793.971
+394  mtMAM+I+G4    3295.384     37  6664.769     6676.200     6799.781
+406  mtMAM+F+G4    3146.265     55  6402.530     6429.547     6603.223
+407  mtMAM+F+I+G4  3144.502     56  6401.004     6429.127     6605.347
+419  HIVb+G4       3103.967     36  6279.933     6290.718     6411.296
+420  HIVb+I+G4     3101.776     37  6277.552     6288.983     6412.564
+432  HIVb+F+G4     3084.467     55  6278.933     6305.951     6479.627
+433  HIVb+F+I+G4   3082.166     56  6276.331     6304.454     6480.674
+445  HIVw+G4       3180.475     36  6432.949     6443.734     6564.312
+446  HIVw+I+G4     3179.471     37  6432.943     6444.374     6567.955
+458  HIVw+F+G4     3141.642     55  6393.284     6420.302     6593.978
+459  HIVw+F+I+G4   3140.440     56  6392.879     6421.003     6597.222
+471  FLU+G4        3085.555     36  6243.110     6253.895     6374.473
+472  FLU+I+G4      3084.266     37  6242.532     6253.963     6377.544
+484  FLU+F+G4      3060.915     55  6231.830     6258.848     6432.524
+485  FLU+F+I+G4    3058.924     56  6229.848     6257.971     6434.190
+497  rtREV+G4      3135.218     36  6342.435     6353.220     6473.798
+498  rtREV+I+G4    3132.838     37  6339.677     6351.108     6474.689
+510  rtREV+F+G4    3096.800     55  6303.600     6330.618     6504.294
+511  rtREV+F+I+G4  3094.432     56  6300.863     6328.987     6505.206
+523  cpREV+G4      3085.637     36  6243.273     6254.059     6374.636
+524  cpREV+I+G4    3083.569     37  6241.138     6252.569     6376.150
+536  cpREV+F+G4    3058.218     55  6226.436     6253.453     6427.129
+537  cpREV+F+I+G4  3055.922     56  6223.844     6251.967     6428.186
+Akaike Information Criterion:           WAG+F+I+G4
+Corrected Akaike Information Criterion: JTTDCMut+I+G4
+Bayesian Information Criterion:         JTTDCMut+G4
+Best-fit model: JTTDCMut+G4 chosen according to BIC
+
+All model information printed to results/six_phylogenies/trees/protein/SIX1.model.gz
+CPU time for ModelFinder: 90.135 seconds (0h:1m:30s)
+Wall-clock time for ModelFinder: 36.867 seconds (0h:0m:36s)
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3066.104
+Optimal log-likelihood: -3066.104
+Gamma shape alpha: 0.472
+Parameters optimization took 1 rounds (0.033 sec)
+Computing ML distances based on estimated model parameters... 0.105 sec
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -3068.353
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.315 second
+Computing log-likelihood of 98 initial trees ... 1.503 seconds
+Current best score: -3066.104
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3066.104
+Iteration 10 / LogL: -3066.351 / Time: 0h:0m:3s
+Iteration 20 / LogL: -3066.208 / Time: 0h:0m:4s
+Finish initializing candidate tree set (2)
+Current best tree score: -3066.104 / CPU time: 4.804
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3066.140 / Time: 0h:0m:6s (0h:0m:16s left)
+Iteration 40 / LogL: -3066.238 / Time: 0h:0m:8s (0h:0m:13s left)
+Iteration 50 / LogL: -3066.186 / Time: 0h:0m:10s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -3101.562
+Iteration 60 / LogL: -3066.113 / Time: 0h:0m:13s (0h:0m:9s left)
+Iteration 70 / LogL: -3066.121 / Time: 0h:0m:15s (0h:0m:6s left)
+Iteration 80 / LogL: -3066.528 / Time: 0h:0m:17s (0h:0m:4s left)
+Iteration 90 / LogL: -3088.986 / Time: 0h:0m:19s (0h:0m:2s left)
+Iteration 100 / LogL: -3066.157 / Time: 0h:0m:21s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3102.188
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3066.104
+Optimal log-likelihood: -3066.104
+Gamma shape alpha: 0.472
+Parameters optimization took 1 rounds (0.022 sec)
+BEST SCORE FOUND : -3066.104
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/six_phylogenies/trees/protein/SIX1.splits.nex
+Total tree length: 1.937
+
+Total number of iterations: 102
+CPU time used for tree search: 59.119 sec (0h:0m:59s)
+Wall-clock time used for tree search: 21.335 sec (0h:0m:21s)
+Total CPU time used: 59.738 sec (0h:0m:59s)
+Total wall-clock time used: 21.596 sec (0h:0m:21s)
+
+Computing bootstrap consensus tree...
+Reading input file results/six_phylogenies/trees/protein/SIX1.splits.nex...
+19 taxa and 91 splits.
+Consensus tree written to results/six_phylogenies/trees/protein/SIX1.contree
+Reading input trees file results/six_phylogenies/trees/protein/SIX1.contree
+Log-likelihood of consensus tree: -3066.108
+
+Analysis results written to: 
+  IQ-TREE report:                results/six_phylogenies/trees/protein/SIX1.iqtree
+  Maximum-likelihood tree:       results/six_phylogenies/trees/protein/SIX1.treefile
+  Likelihood distances:          results/six_phylogenies/trees/protein/SIX1.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/six_phylogenies/trees/protein/SIX1.splits.nex
+  Consensus tree:                results/six_phylogenies/trees/protein/SIX1.contree
+  Screen log file:               results/six_phylogenies/trees/protein/SIX1.log
+
+Date and Time: Thu Sep 24 21:30:44 2026

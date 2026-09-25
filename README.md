@@ -1,47 +1,30 @@
-# Fusarium oxysporum SIX Effector Gene Evolution
+# Foxy_SIX_Evolution — SIX Effector Gene Evolution in Fusarium oxysporum
 
-Comparative genomics analysis of SIX effector gene (SIX1, SIX3, SIX5, SIX7, SIX10, SIX12) distribution and evolutionary history across *Fusarium oxysporum* genomes.
+## Project structure and script order
+1. Genome selection + metadata: results/genome_metadata.tsv (27 genome assemblies, manually curated from NCBI)
+2. Core-genome marker identification: scripts/05_core_genome/miniprot_single_gene/01_make_queries.py
+   - BUSCO (fungi_odb10) on 6 representative genomes → 3,912 shared single-copy candidate genes
+3. Core-genome ortholog mapping: scripts/05_core_genome/miniprot_single_gene/02_run_miniprot.sh
+   - Miniprot v0.18 protein-to-genome alignment against all 27 genomes
+4. Core-genome ortholog filtering: scripts/05_core_genome/miniprot_single_gene/03_extract.py
+   - MINCOV=0.7, MINFRAC=0.9 → 3,911 of 3,912 genes retained
+5. Core-genome alignment/tree: scripts/05_core_genome/miniprot_single_gene/04_align_tree.sh
+   - MAFFT --auto, trimAl -automated1, concatenation, IQ-TREE 3 (LG+I+G, 1000 UFBoot)
+   - Output: results/core/core_tree_fast.treefile
+6. SIX gene homolog search: tblastn of 6 reference SIX genes against all 27 genomes
+   - Thresholds: e-value ≤1e-10, query coverage ≥70%
+   - Output: results/six_presence_absence_matrix.tsv, results/six_pseudogene_annotation_matrix.tsv
 
-## Environment setup
+## Environment
+conda environment `six_project` — see environment.yml for pinned versions
+(Python 3.13.15, Miniprot 0.18, BUSCO 6.0.0, MAFFT 7.526, trimAl 1.5.1, IQ-TREE 3.1.3)
 
-```bash
-mamba env create -f environment.yml
-conda activate six_project
-```
+## Manual steps
+- Genome selection criteria and forma specialis/host/geography metadata were curated manually
+  from NCBI BioSample records (results/genome_metadata.tsv)
+- Borderline BLAST hits were flagged for manual review rather than automatically included/excluded
 
-## Folder structure
-
-- `data/references/` — reference SIX gene sequences (raw NCBI downloads + processed)
-- `data/genomes/` — target genome assemblies and their metadata
-- `data/annotations/` — genome annotation files, where available
-- `results/` — pipeline outputs (homolog tables, matrices, trees, synteny, selection stats)
-- `scripts/` — all analysis scripts, numbered by pipeline stage
-- `docs/decisions/` — manual judgment calls and their justification (genome selection criteria, threshold choices, verification findings)
-- `docs/methods/` — detailed methods notes per pipeline stage
-- `figures/` — final figures for the report
-- `logs/` — captured output from long-running commands
-
-## Reproducing this analysis
-
-| Script | Produces | Notes |
-|---|---|---|
-| `scripts/01_download_references/download_reference_genes.sh` | `data/references/raw/*.fasta`, `*.gb` | Downloads the six NCBI reference accessions |
-| `scripts/01_download_references/verify_reference_genes.sh` | terminal output only (manually reviewed) | Findings recorded in `docs/decisions/reference_gene_verification.md` |
-
-*(this table grows as each pipeline stage is completed)*
-
-## Manual judgment calls
-
-See `docs/decisions/` for every point where a human decision was made (genome selection criteria, BLAST threshold choices, borderline hit calls, synteny interpretation) rather than a fully automated pipeline step.
-
-## Genome selection
-
-Twenty-seven *Fusarium oxysporum* genome assemblies were selected from
-NCBI for this analysis, spanning 15 hosts/formae speciales and including
-the two required reference strains (Fol4287, Fo47). Selection criteria,
-quality filtering, and manual judgment calls (redundant isolate removal,
-forma specialis verification) are documented in
-`docs/decisions/genome_selection_criteria.md`. The final genome metadata
-table is at `results/genome_metadata.tsv`.
-
-Scripts: `scripts/02_genome_selection/`
+## Not completed (see Limitations in report)
+- Per-SIX-gene phylogenies and tree-vs-core-tree congruence comparison
+- dN/dS (HyPhy FEL) analysis
+- SIX7–SIX10–SIX12 synteny/linkage analysis (clinker)

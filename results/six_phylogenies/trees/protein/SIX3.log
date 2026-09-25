@@ -1,0 +1,89 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Dell (AVX512, FMA3, 5 GB RAM)
+Command: iqtree2 -s results/six_phylogenies/alignments/protein/SIX3.aln.fasta -m JTT -T AUTO --seed 12345 --prefix results/six_phylogenies/trees/protein/SIX3
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 24 21:38:11 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file results/six_phylogenies/alignments/protein/SIX3.aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 3 sequences with 163 columns, 41 distinct patterns
+0 parsimony-informative, 23 singleton sites, 140 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  SIX3_GCA_003315725.1_copy1    0.00%    passed    100.00%
+   2  SIX3_GCA_003615085.1_copy1    0.61%    passed    100.00%
+   3  SIX3_GCA_003977725.1_copy1    0.00%    passed    100.00%
+****  TOTAL                         0.20%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+WARNING: States(s) K rarely appear in alignment and may cause numerical problems
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+78658 trees examined
+Threads: 1 / Time: 8.000 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -597
+Threads: 2 / Time: 7.183 sec / Speedup: 1.114 / Efficiency: 56% / LogL: -597
+Threads: 3 / Time: 7.955 sec / Speedup: 1.006 / Efficiency: 34% / LogL: -597
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -597.793
+Optimal log-likelihood: -597.718
+Parameters optimization took 1 rounds (0.000 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -597.718
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.006 second
+Current best score: -597.718
+
+Do NNI search on 1 best initial trees
+Finish initializing candidate tree set (1)
+Current best tree score: -597.718 / CPU time: 0.025
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -597.718 / Time: 0h:0m:23s
+Iteration 20 / LogL: -597.718 / Time: 0h:0m:23s
+Iteration 30 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:55s left)
+Iteration 40 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:35s left)
+Iteration 50 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:23s left)
+Iteration 60 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:15s left)
+Iteration 70 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:10s left)
+Iteration 80 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:5s left)
+Iteration 90 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:2s left)
+Iteration 100 / LogL: -597.718 / Time: 0h:0m:23s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -597.718
+Optimal log-likelihood: -597.718
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -597.718
+Total tree length: 0.151
+
+Total number of iterations: 101
+CPU time used for tree search: 0.044 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.034 sec (0h:0m:0s)
+Total CPU time used: 43.490 sec (0h:0m:43s)
+Total wall-clock time used: 23.193 sec (0h:0m:23s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/six_phylogenies/trees/protein/SIX3.iqtree
+  Maximum-likelihood tree:       results/six_phylogenies/trees/protein/SIX3.treefile
+  Likelihood distances:          results/six_phylogenies/trees/protein/SIX3.mldist
+  Screen log file:               results/six_phylogenies/trees/protein/SIX3.log
+
+Date and Time: Thu Sep 24 21:38:33 2026
